@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient
 const connString = process.env.MONGODB_URI || `mongodb://localhost:27017`
-const DB_NAME = 'api_lol'
+const DB_NAME = 'heroku_tw6v1fxb'
 
 let instance = null
 let isDisconnecting = false
