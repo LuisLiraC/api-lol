@@ -12,13 +12,13 @@
   "author": "Luis Lira",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "glob": "^7.1.4",
-    "mongodb": "^3.2.7"
+    "express": "4.17.1",
+    "glob": "7.1.4",
+    "mongodb": "3.2.7"
   },
   "devDependencies": {
-    "morgan": "^1.9.1",
-    "nodemon": "^1.19.1",
-    "yargs": "^13.2.4"
+    "morgan": "1.9.1",
+    "nodemon": "1.19.1",
+    "yargs": "13.2.4"
   }
 }
