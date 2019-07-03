@@ -1,0 +1,44 @@
+[
+    {
+        "name": "teemo",
+        "stats_base": {
+            "life": 528,
+            "attack_damage": 54,
+            "attack_speed": 0,
+            "movement_speed": 330,
+            "life_regen": 5.5,
+            "armor": 24.3,
+            "magic_resist": 30
+        },
+        "stats_per_level": {
+            "life": 90,
+            "attack_damage": 3,
+            "attack_speed": 3.38,
+            "life_regen": 0.65,
+            "armor": 3.75,
+            "magic_resist": 0.5
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Teemo.png"
+    },
+    {
+        "name": "lucian",
+        "stats_base": {
+            "life": 571,
+            "attack_damage": 61,
+            "attack_speed": 0,
+            "movement_speed": 335,
+            "life_regen": 3.75,
+            "armor": 28,
+            "magic_resist": 30
+        },
+        "stats_per_level": {
+            "life": 86,
+            "attack_damage": 2.75,
+            "attack_speed": 3.3,
+            "life_regen": 0.65,
+            "armor": 3,
+            "magic_resist": 0.5
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Lucian.png"
+    }
+]

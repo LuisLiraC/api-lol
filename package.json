@@ -1,0 +1,24 @@
+{
+  "name": "api_lol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "fill-db": "node ./db/dbContent --fill",
+    "clear-db": "node ./db/dbContent --clear"
+  },
+  "author": "Luis Lira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.4",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "yargs": "^13.2.4"
+  }
+}
