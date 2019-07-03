@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient
-const { DB_HOST, DB_PORT, DB_NAME } = require('./config')
-const connString = process.env.MONGODB_URI || `mongodb://${DB_HOST}:${DB_PORT}`
+const connString = process.env.MONGODB_URI || `mongodb://localhost:27017`
+const DB_NAME = 'api_lol'
 
 let instance = null
 let isDisconnecting = false
@@ -18,13 +18,13 @@ module.exports = {
         })
     },
     disconnect: () => {
-        if (instance && !isDisconnecting){
+        if (instance && !isDisconnecting) {
             isDisconnecting = true
             console.log('>>> Desconectando de MongoDB...')
             return new Promise((resolve, reject) => {
                 instance.close((err, result) => {
-                    if (err) { 
-                        reject(err) 
+                    if (err) {
+                        reject(err)
                         isDisconnecting = false
                         return
                     }

@@ -1,5 +1,5 @@
 const mongo = require('./connect')
-const { DB_NAME } = require('./config')
+const DB_NAME = 'api_lol'
 
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
     },
     getChampionByName: (name) => {
         const db = mongo.instance().db(DB_NAME)
-        const data = db.collection('champions').find({ name: name}).toArray()
+        const data = db.collection('champions').find({ name: name }).toArray()
         return data
     }
 }

@@ -3,6 +3,9 @@ const app = express()
 const mongo = require('./db/connect')
 const port = process.env.PORT || 3000
 
+const logger = require('morgan')
+app.use(logger('dev'))
+
 require('./routes/views')(app)
 require('./routes/api')(app)
 require('./routes/error')(app)
