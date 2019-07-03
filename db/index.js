@@ -1,5 +1,5 @@
 const mongo = require('./connect')
-const DB_NAME = 'heroku_tw6v1fxb'
+const { DB_NAME } = require('./config')
 
 
 module.exports = {
