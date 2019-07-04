@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.dev.js",
-    "fill-db": "node ./db/dbContent --fill",
-    "clear-db": "node ./db/dbContent --clear"
+    "fdb": "node ./db/dbContent --fill",
+    "cdb": "node ./db/dbContent --clear",
+    "r": "npm run cdb && npm run fdb"
   },
   "author": "Luis Lira",
   "license": "ISC",

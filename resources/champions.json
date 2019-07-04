@@ -1,44 +1,972 @@
 [
     {
-        "name": "teemo",
+        "name": "aatrox",
+        "alias": "the darkin blade",
+        "role": "fighter",
+        "region": "runaterra",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Deathbringer Stance",
+                "description": "Aatrox deals bonus damage on his next attack, healing for the damage dealt.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Aatrox_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "The Darkin Blade",
+                "description": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+                "active": "Aatrox slams his greatsword down, dealing 10/30/50/70/90 physical damage. The Darkin Blade may be re-cast 2 additional times, each one increasing in damage.Each strike can hit with the Edge, briefly knocking enemies up and dealing more damage.",
+                "passive": "",
+                "cost": "0",
+                "range": "25000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AatroxQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Infernal Chains",
+                "description": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+                "active": "Aatrox smashes the ground, dealing 30/40/50/60/70 physical damage to the first enemy hit and slowing by 25% for 1.5 s.Champions or Large Monsters have 1.5 s to leave the impact area or be dragged back and damaged again.",
+                "passive": "",
+                "cost": "0",
+                "range": "825",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AatroxW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Umbral Dash",
+                "description": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.",
+                "active": "Aatrox dashes in a direction.",
+                "passive": "Aatrox heals for 20/22.5/25/27.5/30% of damage he deals to champions.",
+                "cost": "0",
+                "range": "25000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AatroxE.png"
+            },
+            {
+                "type": "R key",
+                "name": "World Ender",
+                "description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and movement speed. If he gets a takedown, this effect is extended, and he revives upon taking lethal damage.",
+                "active": "Aatrox reveals his true demonic form for 10 seconds. On activation, he fears nearby enemy minions and gains Movement Speed, decaying over the duration. While World Ender persists, he gains 20/25/30% Attack Damage and increases self healing by 40/55/70%.On enemy champion takedown, World Ender is extended and Aatrox will Revive if he takes lethal damage.",
+                "passive": "",
+                "cost": "0",
+                "range": "25000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AatroxR.png"
+            }
+        ],
         "stats_base": {
-            "life": 528,
-            "attack_damage": 54,
-            "attack_speed": 0,
-            "movement_speed": 330,
-            "life_regen": 5.5,
-            "armor": 24.3,
-            "magic_resist": 30
+            "life": "580",
+            "attack_damage": "60",
+            "attack_speed": "0.651",
+            "movement_speed": "345",
+            "life_regen": "3",
+            "armor": "38",
+            "magic_resist": "32.1",
+            "range": "175"
         },
         "stats_per_level": {
-            "life": 90,
-            "attack_damage": 3,
-            "attack_speed": 3.38,
-            "life_regen": 0.65,
-            "armor": 3.75,
-            "magic_resist": 0.5
+            "life": "90",
+            "attack_damage": "5",
+            "attack_speed": "2.5%",
+            "movement_speed": "0",
+            "life_regen": "0.75",
+            "armor": "3.25",
+            "magic_resist": "1.25",
+            "range": "0"
         },
-        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Teemo.png"
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Aatrox.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_8.jpg"
+        ]
     },
     {
-        "name": "lucian",
+        "name": "ahri",
+        "alias": "the nine-tailed fox",
+        "role": "mage",
+        "region": "ionia",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Vastayan Grace",
+                "description": "Whenever Ahri's spells hit a champion 2 times within a short period, she briefly gains movement speed.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Ahri_SoulEater2.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Orb of Deception",
+                "description": "Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back. After earning several spell hits, Ahri's next orb hits will restore her health.",
+                "active": "Deals 40/65/90/115/140 (+35% Ability Power) magic damage on the way out, and 40/65/90/115/140 (+35% Ability Power) true damage on the way back.Casting Orb of Deception builds stacks. At 0 stacks, Ahri's next Orb of Deception will restore 0 (+0) health for each enemy hit.",
+                "passive": "",
+                "cost": "65/70/75/80/85 Mana",
+                "range": "880",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AhriOrbofDeception.png"
+            },
+            {
+                "type": "W key",
+                "name": "Fox-Fire",
+                "description": "Ahri releases three fox-fires, that lock onto and attack nearby enemies.",
+                "active": "Releases fox-fires that seek nearby enemies and deal 40/65/90/115/140 (+30% Ability Power) magic damage.Enemies hit with multiple fox-fires take 30% damage from each additional fox-fire beyond the first, for a maximum of 0 damage to a single enemy.Fox-fire prioritizes champions recently hit by Charm, then enemies Ahri recently attacked.If Fox-fire cannot find a priority target, it targets champions over the nearest enemy if possible.",
+                "passive": "",
+                "cost": "40 Mana",
+                "range": "700",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AhriFoxFire.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Charm",
+                "description": "Ahri blows a kiss that damages and charms an enemy it encounters, causing them to walk harmlessly towards her and take more damage from her abilities.",
+                "active": "Blows a kiss dealing 60/90/120/150/180 (+40% Ability Power) magic damage and charms an enemy causing them to walk harmlessly towards Ahri for 1.4/1.55/1.7/1.85/2 second(s).Enemies hit by Charm become vulnerable for 5 seconds, taking 20% more damage from Ahri's abilities.",
+                "passive": "",
+                "cost": "70 Mana",
+                "range": "975",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AhriSeduce.png"
+            },
+            {
+                "type": "R key",
+                "name": "Spirit Rush",
+                "description": "Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown.",
+                "active": "Nimbly dashes forward firing 3 essence bolts at nearby enemies (prioritizing champions) dealing 60/90/120 magic damage.Can be cast up to 3 times within 10 seconds before going on cooldown.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "450",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AhriTumble.png"
+            }
+        ],
         "stats_base": {
-            "life": 571,
-            "attack_damage": 61,
-            "attack_speed": 0,
-            "movement_speed": 335,
-            "life_regen": 3.75,
-            "armor": 28,
-            "magic_resist": 30
+            "life": "526",
+            "attack_damage": "53.04",
+            "attack_speed": "0.668",
+            "movement_speed": "330",
+            "life_regen": "6.5",
+            "armor": "20.88",
+            "magic_resist": "30",
+            "range": "550"
         },
         "stats_per_level": {
-            "life": 86,
-            "attack_damage": 2.75,
-            "attack_speed": 3.3,
-            "life_regen": 0.65,
-            "armor": 3,
-            "magic_resist": 0.5
+            "life": "92",
+            "attack_damage": "3",
+            "attack_speed": "2%",
+            "movement_speed": "0",
+            "life_regen": "0.6",
+            "armor": "3.5",
+            "magic_resist": "0.5",
+            "range": "0"
         },
-        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Lucian.png"
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Ahri.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_14.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_15.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_16.jpg"
+        ]
+    },
+    {
+        "name": "akali",
+        "alias": "the rogue assassin",
+        "role": "assassin",
+        "region": "ionia",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Assassin's Mark",
+                "description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next autoattack with bonus range and damage.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Akali_P.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Five Point Strike",
+                "description": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.",
+                "active": "Slings kunai in an arc, dealing 25/50/75/100/125 magic damage. Enemies at the tip are briefly slowed.At max rank, deals 133% damage to minions and monsters.",
+                "passive": "",
+                "cost": "100/95/90/85/80 Energy",
+                "range": "550",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AkaliQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Twilight Shroud",
+                "description": "Akali drops a cover of smoke. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks and gains Movement Speed. Attacking or using abilities will briefly reveal her.",
+                "active": "Drops a smoke bomb, unleashing a spreading cover of smoke lasting 5/5.5/6/6.5/7 seconds.The smoke obscures Akali from enemy vision and grants her 20/25/30/35/40% movement speed.Entering or exiting obscured extends Shroud's duration.",
+                "passive": "",
+                "cost": "Restores 40/50/60/70/80 Energy",
+                "range": "350",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AkaliW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Shuriken Flip",
+                "description": "Flip backward and fire a shuriken forward, dealing physical damage. The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.",
+                "active": "Flip backward and fire a shuriken forward, dealing 80/115/150/185/220 physical damage and marking the first enemy or smoke cloud hit. Re-cast: Dash to the marked target, dealing 50/80/110/140/170 physical damage.",
+                "passive": "",
+                "cost": "30 Energy",
+                "range": "825",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AkaliE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Perfect Execution",
+                "description": "Akali leaps in a direction, stunning and damaging enemies she strikes. Re-cast: Akali dashes in a direction, executing all enemies she strikes.",
+                "active": "Two dashes: The first vaults over enemies, micro-stunning and dealing 85/150/215 physical damage. Akali can dash again after 2.5 seconds.The second is a piercing thrust that executes, dealing 85/150/215 to 255/450/645 magic damage based on missing health.",
+                "passive": "",
+                "cost": "0",
+                "range": "575",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AkaliR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "550",
+            "attack_damage": "62.4",
+            "attack_speed": "0.625",
+            "movement_speed": "345",
+            "life_regen": "6",
+            "armor": "23",
+            "magic_resist": "32.1",
+            "range": "125"
+        },
+        "stats_per_level": {
+            "life": "85",
+            "attack_damage": "3.3",
+            "attack_speed": "3.2%",
+            "movement_speed": "0",
+            "life_regen": "0.5",
+            "armor": "3.5",
+            "magic_resist": "1.25",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Akali.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_9.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_13.jpg"
+        ]
+    },
+    {
+        "name": "alistar",
+        "alias": "the minotaur",
+        "role": "tank",
+        "region": "runaterra",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Triumphant Roar",
+                "description": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die. When fully charged he heals himself and all nearby allied champions.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Alistar_E.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Pulverize",
+                "description": "Alistar smashes the ground, dealing damage to nearby enemies and tossing them into the air.",
+                "active": "Alistar smashes the ground, dealing 60/105/150/195/240 (+50% Ability Power) magic damage and tossing nearby enemy units into the air for 1 second.",
+                "passive": "",
+                "cost": "65/70/75/80/85 Mana",
+                "range": "365",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Pulverize.png"
+            },
+            {
+                "type": "W key",
+                "name": "Headbutt",
+                "description": "Alistar rams a target with his head, dealing damage and knocking the target back.",
+                "active": "Alistar rams into an enemy, dealing 55/110/165/220/275 (+70% Ability Power) magic damage and knocking them back.",
+                "passive": "",
+                "cost": "65/70/75/80/85 Mana",
+                "range": "650",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Headbutt.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Trample",
+                "description": "Alistar tramples nearby enemy units, ignoring unit collision and gaining stacks if he damages an enemy champion. At full stacks Alistar's next basic attack against an enemy champion deals additional magic damage and stuns them.",
+                "active": "Alistar tramples the ground, ignoring unit collision and dealing 0 (+0) magic damage over 5 seconds to nearby enemies. Each pulse that damages at least one enemy champion grants Alistar a Trample stack.At 5 Trample stacks Alistar empowers his next basic attack against an enemy champion to deal an additional 0 magic damage and stun for 1 second.",
+                "passive": "",
+                "cost": "50/60/70/80/90 Mana",
+                "range": "350",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AlistarE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Unbreakable Will",
+                "description": "Alistar lets out a wild roar, removing all crowd control effects on himself, and reducing incoming physical and magical damage for the duration.",
+                "active": "Removes all disables from Alistar. For 7 seconds Alistar takes 55/65/75% reduced physical and magical damage.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "1",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/FerociousHowl.png"
+            }
+        ],
+        "stats_base": {
+            "life": "573.36",
+            "attack_damage": "61.1116",
+            "attack_speed": "0.625",
+            "movement_speed": "330",
+            "life_regen": "8.5",
+            "armor": "44",
+            "magic_resist": "32.1",
+            "range": "125"
+        },
+        "stats_per_level": {
+            "life": "106",
+            "attack_damage": "3.62",
+            "attack_speed": "2.125%",
+            "movement_speed": "0",
+            "life_regen": "8.5",
+            "armor": "3.5",
+            "magic_resist": "32.1",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Alistar.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_9.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_10.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_19.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_20.jpg"
+        ]
+    },
+    {
+        "name": "amumu",
+        "alias": "the sad mummy",
+        "role": "tank",
+        "region": "shurima",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Cursed Touch",
+                "description": "Amumu's basic attacks Curse enemies for 3 seconds, causing them to take 10% bonus true damage from any magic damage dealt to them.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Amumu_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Bandage Toss",
+                "description": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+                "active": "Launches a bandage in a direction. If it hits an enemy unit, Amumu pulls himself to them, dealing 80/130/180/230/280 (+70% Ability Power) magic damage and stunning for 1 second.",
+                "passive": "",
+                "cost": "50/55/60/65/70 Mana",
+                "range": "1100",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BandageToss.png"
+            },
+            {
+                "type": "W key",
+                "name": "Despair",
+                "description": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed.",
+                "active": "Toggle: Amumu cries, refreshing Curses on nearby enemies and dealing magic damage equal to 10/15/20/25/30 plus 1/1.25/1.5/1.75/2 (+1% Ability Power)% of their maximum health each second.",
+                "passive": "",
+                "cost": "8 Mana per Second",
+                "range": "300",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AuraofDespair.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Tantrum",
+                "description": "Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced by 0.5 seconds.",
+                "active": "Amumu tantrums, dealing 75/100/125/150/175 (+50% Ability Power) magic damage to surrounding units. Basic attacks that hit Amumu reduce Tantrum's cooldown by 0.5 seconds.Tantrum's passive effect increases in potency with bonus Armor and Magic Resist.",
+                "passive": "Amumu takes 2/4/6/8/10 (+0)(+0) reduced physical damage.",
+                "cost": "35 Mana",
+                "range": "350",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Tantrum.png"
+            },
+            {
+                "type": "R key",
+                "name": "Curse of the Sad Mummy",
+                "description": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging them and rendering them unable to attack or move.",
+                "active": "Amumu entangles nearby enemy units, dealing 150/250/350 magic damage and applying Curse. Entangled enemies are unable to attack or move for 2 seconds.",
+                "passive": "",
+                "cost": "100/150/200 Mana",
+                "range": "550",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CurseoftheSadMummy.png"
+            }
+        ],
+        "stats_base": {
+            "life": "613.12",
+            "attack_damage": "53.38",
+            "attack_speed": "0.736",
+            "movement_speed": "335",
+            "life_regen": "9",
+            "armor": "33",
+            "magic_resist": "32.1",
+            "range": "125"
+        },
+        "stats_per_level": {
+            "life": "84",
+            "attack_damage": "3.8",
+            "attack_speed": "2.18%",
+            "movement_speed": "0",
+            "life_regen": "0.85",
+            "armor": "3.8",
+            "magic_resist": "1.25",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Amumu.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_17.jpg"
+        ]
+    },
+    {
+        "name": "anivia",
+        "alias": "the cryophoenix",
+        "role": "mage",
+        "region": "freljord",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Rebirth",
+                "description": "Upon dying, Anivia will revert into an egg. If the egg can survive for six seconds, she is gloriously reborn.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Anivia_P.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Flash Frost",
+                "description": "Anivia brings her wings together and summons a sphere of ice that flies towards her opponents, chilling and damaging anyone in its path. When the sphere explodes it does moderate damage in a radius, stunning anyone in the area.",
+                "active": "A massive chunk of ice flies toward target location, dealing 60/85/110/135/160 (+45% Ability Power) magic damage. At the end of its range or if Anivia activates the spell again, the missile detonates, doing 60/85/110/135/160 (+45% Ability Power) magic damage in a small area and stunning units for 1.1/1.2/1.3/1.4/1.5 seconds.Enemies damaged by Flash Frost are also slowed by [0]% for 3 seconds.",
+                "passive": "",
+                "cost": "80/90/100/110/120 Mana",
+                "range": "1075",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/FlashFrost.png"
+            },
+            {
+                "type": "W key",
+                "name": "Crystallize",
+                "description": "Anivia condenses the moisture in the air into an impassable wall of ice to block all movement. The wall only lasts a short duration before it melts.",
+                "active": "Anivia summons an impassable wall of ice 400/500/600/700/800 units wide, blocking all movement. The wall lasts for 5 seconds before it melts.",
+                "passive": "",
+                "cost": "70 Mana",
+                "range": "1000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Crystallize.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Frostbite",
+                "description": "With a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing a low amount of damage. If the target was recently stunned by Flash Frost or damaged by a fully formed Glacial Storm, the damage they take is doubled.",
+                "active": "Anivia blasts her target with a freezing wind, dealing 50/75/100/125/150 (+50% Ability Power) magic damage. If a target was recently stunned by Anivia or damaged by a fully formed Glacial Storm, they take double damage.",
+                "passive": "",
+                "cost": "50/60/70/80/90 Mana",
+                "range": "650",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Frostbite.png"
+            },
+            {
+                "type": "R key",
+                "name": "Glacial Storm",
+                "description": "Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.",
+                "active": "Drains 40/50/60 Mana per second. Anivia calls forth a driving rain of ice and hail that increases in size over 1.5 seconds, dealing 40/60/80 magic damage per second to targets and slowing their Movement Speed by 20/30/40%. When the Glacial Storm is fully formed, it slows targets' Movement Speed by 30/45/60% and does 300% damage instead.",
+                "passive": "",
+                "cost": "75 Mana",
+                "range": "750",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/GlacialStorm.png"
+            }
+        ],
+        "stats_base": {
+            "life": "480",
+            "attack_damage": "51.376",
+            "attack_speed": "0.625",
+            "movement_speed": "325",
+            "life_regen": "5.5",
+            "armor": "21.22",
+            "magic_resist": "30",
+            "range": "600"
+        },
+        "stats_per_level": {
+            "life": "82",
+            "attack_damage": "3.2",
+            "attack_speed": "1.68%",
+            "movement_speed": "0",
+            "life_regen": "0.55",
+            "armor": "4",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Anivia.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_8.jpg"
+        ]
+    },
+    {
+        "name": "annie",
+        "alias": "the dark child",
+        "role": "mage",
+        "region": "runaterra",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Pyromania",
+                "description": "After casting 4 spells, Annie's next offensive spell will stun the target for a short duration.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Annie_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Disintegrate",
+                "description": "Annie hurls a Mana infused fireball, dealing damage and refunding the Mana cost if it destroys the target.",
+                "active": "Deals 80/115/150/185/220 (+80% Ability Power) magic damage. Mana cost and half the cooldown are refunded if Disintegrate kills the target.",
+                "passive": "",
+                "cost": "60/65/70/75/80 Mana",
+                "range": "625",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AnnieQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Incinerate",
+                "description": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
+                "active": "Casts a cone of fire dealing 70/115/160/205/250 (+85% Ability Power) magic damage to all enemies in the area.",
+                "passive": "",
+                "cost": "70/80/90/100/110 Mana",
+                "range": "600",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AnnieW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Molten Shield",
+                "description": "Grants Annie and Tibbers increased percentage Damage Resist and damages enemies who attack with basic attacks.",
+                "active": "Annie grants herself and Tibbers 16/22/28/34/40% damage reduction for 3 seconds.While the shield is active, enemies who basic attack it take 20/30/40/50/60 (+20% Ability Power) magic damage.",
+                "passive": "",
+                "cost": "20 Mana",
+                "range": "400",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AnnieE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Summon: Tibbers",
+                "description": "Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.",
+                "active": "Summons Tibbers, dealing 150/275/400 (+65% Ability Power) magic damage to enemies in the target area. For the next 45 seconds, Tibbers burns nearby enemies for 10/15/20 (+10% Ability Power) per second and attacks for 50/75/100 (+10.66% Ability Power) as magic damage. Annie can control Tibbers by reactivating this ability. Tibbers Enrages when: summoned; Annie uses Pyromania on an enemy Champion; and when Annie dies. Enrages: Tibbers gains 275% Attack Speed and 100% Movement Speed, decaying over 3 seconds.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "600",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AnnieR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "524",
+            "attack_damage": "50.41",
+            "attack_speed": "0.579",
+            "movement_speed": "335",
+            "life_regen": "5.5",
+            "armor": "19.22",
+            "magic_resist": "30",
+            "range": "625"
+        },
+        "stats_per_level": {
+            "life": "88",
+            "attack_damage": "2.625",
+            "attack_speed": "1.6%",
+            "movement_speed": "0",
+            "life_regen": "0.55",
+            "armor": "4",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Annie.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_9.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_10.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_11.jpg"
+        ]
+    },
+    {
+        "name": "kayn",
+        "alias": "the shahow reaper",
+        "role": "assassin",
+        "region": "ionia",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "The Darkin Scythe",
+                "description": "Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin. Darkin: Heal for a percentage of spell damage dealt to champions. Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Kayn_Passive_Primary.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Reaping Slash",
+                "description": "Kayn dashes, then slashes. Both deal damage.",
+                "active": "Kayn dashes forward to strike nearby enemies. Both dash and strike deal 60/80/100/120/140 (+65% bonus Attack Damage) physical damage.",
+                "passive": "Darkin: Deal a percentage of the target's maximum health instead.Deals 55 bonus physical damage to monsters.",
+                "cost": "50 Mana",
+                "range": "350",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/KaynQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Blade's Reach",
+                "description": "Kayn damages and slows targets in a line.",
+                "active": "Kayn deals 90/135/180/225/270 (+130% bonus Attack Damage) physical damage and slows enemies hit by 60%, decaying over the next 1.5 seconds.",
+                "passive": "Shadow Assassin: Gain extra range and the ability to move during Blade's Reach. Darkin: Gain a knock up.",
+                "cost": "60/65/70/75/80 Mana",
+                "range": "700",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/KaynW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Shadow Step",
+                "description": "Kayn can walk through terrain.",
+                "active": "Kayn gains 40% movement speed and the ability to walk through terrain for 7/7.5/8/8.5/9 seconds. When he first enters terrain, he is healed for 100/115/130/145/160 (+40% bonus Attack Damage).",
+                "passive": "Shadow Assassin: Cooldown is set to 8 seconds, gain more movement speed, and slow immunity.",
+                "cost": "90 Mana",
+                "range": "400",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/KaynE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Umbral Trespass",
+                "description": "Kayn hides in an enemy's body, dealing massive damage when he bursts out.",
+                "active": "Kayn infests an enemy champion he has recently damaged, becoming untargetable for up to 2.5 seconds. Reactivate to end this effect early. When Umbral Trespass ends, the target takes 150/250/350 physical damage.",
+                "passive": "Shadow Assassin: Gains extra range (both when entering and exiting Kayn's victim) and refreshes The Darkin Scythe on exit. Darkin: Deals percent maximum health damage and heals for a percentage of target maximum health.",
+                "cost": "100 Mana",
+                "range": "550",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/KaynR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "585",
+            "attack_damage": "68",
+            "attack_speed": "0.669",
+            "movement_speed": "340",
+            "life_regen": "8",
+            "armor": "38",
+            "magic_resist": "32.1",
+            "range": "175"
+        },
+        "stats_per_level": {
+            "life": "85",
+            "attack_damage": "3.3",
+            "attack_speed": "2.7%",
+            "movement_speed": "",
+            "life_regen": "0.75",
+            "armor": "3.3",
+            "magic_resist": "1.25",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Kayn.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_2.jpg"
+        ]
+    },
+    {
+        "name": "nidalee",
+        "alias": "the bestial huntress",
+        "role": "assassin",
+        "region": "ixtal",
+        "transform": true,
+        "abilities": {
+            "kit_1": [
+                {
+                    "type": "passive",
+                    "name": "Prowl",
+                    "description": "Moving through brush increases Nidalee's Movement Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range. Hitting champions or monsters with Javelin Toss or Bushwhack triggers a Hunt, granting True Sight of them for 4 seconds. During this time, Nidalee gains 10% Movement Speed (increased to 30% toward the Hunted target) and her Takedown and Pounce are enhanced against them.",
+                    "active": "",
+                    "passive": "",
+                    "cost": "0",
+                    "range": "0",
+                    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Nidalee_Passive.png"
+                },
+                {
+                    "type": "Q key",
+                    "name": "Javelin Toss",
+                    "description": "In human form, Nidalee throws a spiked javelin at her target that gains damage as it flies.",
+                    "active": "Human: Nidalee throws her javelin, dealing 70/85/100/115/130 (+40% Ability Power) magic damage. If it exceeds her basic attack range, it gains damage based on distance flown, up to a potential 210/255/300/345/390 (+120% Ability Power) total damage.",
+                    "passive": "",
+                    "cost": "50/60/70/80/90 Mana",
+                    "range": "1500",
+                    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/JavelinToss.png"
+                },
+                {
+                    "type": "W key",
+                    "name": "Bushwhack",
+                    "description": "In human form, Nidalee lays a trap for unwary opponents that, when sprung, damages and reveals its target. ",
+                    "active": "Human: Nidalee places an invisible trap that lasts for 2 minutes. The trap triggers when an enemy walks over it, revealing the victim and bleeding them for 40/80/120/160/200 (+20% Ability Power) magic damage over 4 seconds.0 traps may be active at once. (Maximum traps increases at level 6, 11 and 16)",
+                    "passive": "",
+                    "cost": "40/45/50/55/60 Mana",
+                    "range": "900",
+                    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Bushwhack.png"
+                },
+                {   
+                    "type": "E key",
+                    "name": "Primal Surge",
+                    "description": "In human form, Nidalee channels the spirit of the cougar to heal her allies and imbue them with Attack Speed for a short duration.",
+                    "active": "Human: Nidalee heals target ally champion for 35/55/75/95/115 (+33% Ability Power) to 70/110/150/190/230 (+0) based on their missing health and grants them 20/30/40/50/60% Attack Speed for 7 seconds.",
+                    "passive": "",
+                    "cost": "60/75/90/105/120 Mana",
+                    "range": "600",
+                    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/PrimalSurge.png"
+                },
+                {
+                    "type": "R key",
+                    "name": "Aspect Of The Cougar",
+                    "description": "Nidalee transforms into a cougar, gaining new abilities.",
+                    "active": "Human: Nidalee transforms into a vicious cougar with the basic abilities Takedown, Pounce, and Swipe.",
+                    "passive": "",
+                    "cost": "0",
+                    "range": "20",
+                    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AspectOfTheCougar.png"
+                }
+            ],
+            "kit_2": [
+                {
+                    "type": "passive",
+                    "name": "Prowl",
+                    "description": "Moving through brush increases Nidalee's Movement Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range. Hitting champions or monsters with Javelin Toss or Bushwhack triggers a Hunt, granting True Sight of them for 4 seconds. During this time, Nidalee gains 10% Movement Speed (increased to 30% toward the Hunted target) and her Takedown and Pounce are enhanced against them.",
+                    "active": "",
+                    "passive": "",
+                    "cost": "0",
+                    "range": "0",
+                    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Nidalee_Passive.png"
+                },
+                {
+                    "type": "Q key",
+                    "name": "Takedown",
+                    "description": "As a cougar, her next attack will attempt to fatally wound her target, dealing more damage the less life they have.",
+                    "active": "Cougar: Nidalee's next attack deals additional damage, greatly increased on low health targets.",
+                    "passive": "",
+                    "cost": "0",
+                    "range": "0",
+                    "image_url": ""
+                },
+                {
+                    "type": "W key",
+                    "name": "Pounce",
+                    "description": "As a cougar, she jumps in a direction, dealing damage in an area where she lands.",
+                    "active": "Cougar: Nidalee lunges in target direction, dealing damage to nearby enemies.",
+                    "passive": "",
+                    "cost": "0",
+                    "range": "400",
+                    "image_url": ""
+                },
+                {   
+                    "type": "E key",
+                    "name": "Swipe",
+                    "description": "As a cougar, she claws in a direction, dealing damage to enemies in front of her.",
+                    "active": "Cougar: Nidalee claws at enemies in target direction.",
+                    "passive": "",
+                    "cost": "0",
+                    "range": "350",
+                    "image_url": ""
+                },
+                {
+                    "type": "R key",
+                    "name": "Aspect Of The Cougar",
+                    "description": "Nidalee transforms into a cougar, gaining new abilities.",
+                    "active": "Cougar: Nidalee transforms back into human form. While in human form, triggering a Hunt resets the cooldown of Aspect of the Cougar.",
+                    "passive": "",
+                    "cost": "0",
+                    "range": "20",
+                    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AspectOfTheCougar.png"
+                }
+            ]
+        },
+        "stats_base": {
+            "life": "545",
+            "attack_damage": "61",
+            "attack_speed": "0.638",
+            "movement_speed": "335",
+            "life_regen": "6",
+            "armor": "28",
+            "magic_resist": "30",
+            "range": "525"
+        },
+        "stats_per_level": {
+            "life": "85",
+            "attack_damage": "3.5",
+            "attack_speed": "3.22%",
+            "movement_speed": "0",
+            "life_regen": "0.6",
+            "armor": "3.5",
+            "magic_resist": "30",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Nidalee.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_9.jpg"
+        ]
+    },
+    {
+        "name": "teemo",
+        "alias": "the swift scout",
+        "role": "marksman",
+        "region": "bandle city",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Guerrilla Warfare",
+                "description": "If Teemo stands still and takes no actions for a short duration, he becomes Invisible indefinitely. If he's in brush, Teemo can enter and maintain his Invisibility while moving. After leaving Invisibility, Teemo gains the Element of Surprise, increasing his Attack Speed for 3 seconds.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Teemo_P.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Blinding Dart",
+                "description": "Obscures an enemy's vision with a powerful venom, dealing damage to the target unit and blinding it for the duration.",
+                "active": "Deals 80/125/170/215/260 (+80% Ability Power) magic damage and blinds the target for 1.5/1.75/2/2.25/2.5 seconds.",
+                "passive": "",
+                "cost": "70/75/80/85/90 Mana",
+                "range": "680",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BlindingDart.png"
+            },
+            {
+                "type": "W key",
+                "name": "Move Quick",
+                "description": "Teemo scampers around, passively increasing his Movement Speed until he is struck by an enemy champion or turret. Teemo can sprint to gain bonus Movement Speed that isn't stopped by being struck for a short time.",
+                "active": "Teemo sprints, gaining twice his normal bonus for 3 seconds. This bonus is not lost when struck.",
+                "passive": "Teemo's Movement Speed is increased by 10/14/18/22/26% unless he has been damaged by an enemy champion or turret in the last 5 seconds.",
+                "cost": "40 Mana",
+                "range": "20",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/MoveQuick.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Toxic Shot",
+                "description": "Each of Teemo's attacks will poison the target, dealing damage on impact and each second after for 4 seconds.",
+                "active": "",
+                "passive": "Teemo's basic attacks poison their target, dealing 10/20/30/40/50 (+30% Ability Power) magical damage upon impact and 6/12/18/24/30 (+10% Ability Power) magical damage each second for 4 seconds.",
+                "cost": "0",
+                "range": "680",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/ToxicShot.png"
+            },
+            {
+                "type": "R key",
+                "name": "Noxious Trap",
+                "description": "Teemo throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous cloud, slowing enemies and damaging them over time. If Teemo throws a mushroom onto another mushroom it will bounce, gaining additional range.",
+                "active": "Tosses a stored mushroom as a trap that detonates if an enemy steps on it, spreading poison to nearby enemies that slows Movement Speed by 30/40/50%, reveals them and deals 200/325/450 (+50% Ability Power) magic damage over 4 seconds. Traps last 5 minutes and take 1 second to arm and stealth. If a thrown trap lands on another trap, it will bounce up to 3/4/5 Teemos further before planting.Teemo forages for a mushroom every 0 seconds, but he is only big enough to carry 3 at once.",
+                "passive": "",
+                "cost": "75 Mana",
+                "range": "400/650/900",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/TeemoRCast.png"
+            }
+        ],
+        "stats_base": {
+            "life": "528",
+            "attack_damage": "54",
+            "attack_speed": "0.690",
+            "movement_speed": "330",
+            "life_regen": "5.5",
+            "armor": "24.3",
+            "magic_resist": "30",
+            "range": "500"
+        },
+        "stats_per_level": {
+            "life": "90",
+            "attack_damage": "3",
+            "attack_speed": "3.38%",
+            "movement_speed": "0",
+            "life_regen": "0.65",
+            "armor": "3.75",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Teemo.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_14.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_18.jpg"
+        ]
     }
 ]
