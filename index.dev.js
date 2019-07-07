@@ -6,8 +6,10 @@ const cors = require('cors')
 
 const logger = require('morgan')
 app.use(logger('dev'))
-app.use(cors())
+
 app.use(express.static(__dirname + '/css'))
+app.use(express.static(__dirname + '/js'))
+app.use(cors())
 
 require('./routes/views')(app)
 require('./routes/api')(app)

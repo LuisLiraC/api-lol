@@ -5,6 +5,8 @@ const port = process.env.PORT || 3000
 const cors = require('cors')
 
 app.use(cors())
+app.use(express.static(__dirname + '/css'))
+app.use(express.static(__dirname + '/js'))
 require('./routes/views')(app)
 require('./routes/api')(app)
 require('./routes/error')(app)

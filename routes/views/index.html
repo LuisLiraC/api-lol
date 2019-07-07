@@ -11,19 +11,26 @@
 
 <body>
     <main>
-        <h1>Welcome to League of Legends API</h1>
+        <h1>League of Legends API</h1>
         <p>The API where you can find information about each champion of the game.</p>
     </main>
     <section>
         <div id="example">
-            <h3>Example</h3>
-            <input type="text" disabled="true" value="https://api-lol.herokuapp.com/api/champions/teemo"/>
-            <textarea id="json"></textarea>
+            <h3>¡Try it!</h3>
+            <form id="form">
+                <input id="url" type="text" disabled="true" value="https://api-lol.herokuapp.com/api/champions/"/>
+                <input id="champion" type="text" name="champion" placeholder="champion name..."/>
+                <button id="fetch" type="submit">Search</button>
+            </form>
+            <textarea id="json" readonly></textarea>
         </div>
     </section>
     <footer>
+        <p>Last League of Legends Patch: 9.13</p>
+        <p><a href="https://github.com/LuisLiraC/api-lol" target="_blank">GitHub Repository</a></p>
         <p>Created by <a href="https://luislirac.github.io" target="_blank">Luis Lira</a></p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>

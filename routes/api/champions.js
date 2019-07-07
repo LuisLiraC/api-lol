@@ -14,6 +14,6 @@ module.exports = (app) => {
     app.get(`${API_PATH}/champions/:name`, async (req, res) => {
         const name = req.params.name.toLowerCase()
         const champion = await getChampionByName(name)
-        res.json(champion)
+        res.send(champion[0])
     })
 }
