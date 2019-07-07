@@ -1,0 +1,27 @@
+body {
+    background-color: #0D47A1;
+    font-family: 'Helvetica', system-ui;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+section {
+    background-color: white;
+}
+#example {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+#json {
+    width: 700px;
+    height: 500px;
+}
+footer {
+    background-color: #263238;
+    color: white;
+}

@@ -646,6 +646,271 @@
         ]
     },
     {
+        "name": "ashe",
+        "alias": "the frost archer",
+        "role": "marksman",
+        "region": "freljord",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Frost Shot",
+                "description": "Ashe's attacks slow their target, causing her to deal increased damage to these targets. Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Ashe_P.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Ranger's Focus",
+                "description": "Ashe builds up Focus by attacking. At maximum Focus, Ashe can cast Ranger's Focus to consume all stacks of Focus, temporarily increasing her Attack Speed and transforming her basic attack into a powerful flurry attack for the duration.",
+                "active": "For 4 seconds, Ashe gains 20/25/30/35/40% Attack Speed, and her basic attacks fire a flurry of arrows dealing 0 physical damage. During this time, she does not stack Focus. Ranger's Focus applies Frost Shot.",
+                "passive": "Basic attacks grant Focus for 4 seconds, stacking up to 4 times. Stacks fall off one at a time, and at 4 stacks, Ranger's Focus can be cast, consuming all Focus.",
+                "cost": "50 Mana",
+                "range": "400",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AsheQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Volley",
+                "description": "Ashe fires 9 arrows in a cone for increased damage. Also applies Frost Shot.",
+                "active": "Fires arrows in a cone, each dealing {{ totaldamage }} physical damage. Enemies can block multiple arrows, but only take damage from the first.Champion hits count as Critical Strikes for the purposes of Frost Shot.",
+                "passive": "",
+                "cost": "50 Mana",
+                "range": "1200",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Volley.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Hawkshot",
+                "description": "Ashe sends her Hawk Spirit on a scouting mission anywhere on the map.",
+                "active": "Reveals terrain as it flies toward target location anywhere on the map. Grants vision for 5 seconds. Ashe can store up to 2 charges of Hawkshot.Hawkshot grants Ashe assists on enemy champions that it reveals - but only if they were otherwise unseen.",
+                "passive": "",
+                "cost": "0",
+                "range": "25000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AsheSpiritOfTheHawk.png"
+            },
+            {
+                "type": "R key",
+                "name": "Enchanted Crystal Arrow",
+                "description": "Ashe fires a missile of ice in a straight line. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.",
+                "active": "Launches a crystal arrow of ice that stuns the first enemy Champion hit, dealing {{ rmaindamage }} magic damage. The farther the arrow flies, the longer the stun, up to {{ maxstunduration }} seconds. Surrounding enemies take half damage.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "25000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/EnchantedCrystalArrow.png"
+            }
+        ],
+        "stats_base": {
+            "life": "539",
+            "attack_damage": "61",
+            "attack_speed": "",
+            "movement_speed": "325",
+            "life_regen": "3.5",
+            "armor": "26",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "85",
+            "attack_damage": "2.96",
+            "attack_speed": "3.33%",
+            "movement_speed": "0",
+            "life_regen": "0.55",
+            "armor": "3.4",
+            "magic_resist": "30",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Ashe.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_9.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_11.jpg"
+        ]
+    },
+    {
+        "name": "aurelion sol",
+        "alias": "the star forger",
+        "role": "mage",
+        "region": "runaterra",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Center of the Universe",
+                "description": "Stars orbit Aurelion Sol, dealing magic damage when they hit an enemy.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/AurelionSol_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Starsurge",
+                "description": "Aurelion Sol creates an expanding disk, which explodes to stun and damage enemies when it moves too far away from him.",
+                "active": "First Press: Aurelion Sol creates a new stellar core, which grows over time and grants him 10% Movement Speed.The core will detonate when it reaches his Outer Limit, applying 70/110/150/190/230 (+65% Ability Power) magic damage and stunning enemies for {{ effect4amount*.333 }} to 1.65/1.8/1.95/2.1/2.25 second(s) based on size. Second Press: Detonate the core early.",
+                "passive": "",
+                "cost": "60/70/80/90/100 Mana",
+                "range": "1075",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AurelionSolQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Celestial Expansion",
+                "description": "Aurelion Sol pushes his stars farther out, magnifying their damage.",
+                "active": "Toggle: Aurelion Sol's Stars orbit at his Outer Limit and deal 150% damage, for a total of 0 (+0) magic damage.",
+                "passive": "Increases Star base damage by 5/10/15/20/25.",
+                "cost": "40 Mana plus 22/24/26/28/30 Mana Per Second",
+                "range": "600",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AurelionSolW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Comet of Legend",
+                "description": "Aurelion Sol gains speed while moving in one continuous direction, and can take off flying for a long distance.",
+                "active": "Fly for 3000/4000/5000/6000/7000 units in the chosen direction. Only castable outside of combat. Aurelion Sol can see and be seen over walls while flying.Taking champion or turret damage will force a landing and reset the passive movement speed.",
+                "passive": "Continuously moving in one direction grants increasing Movement Speed up to 25/30/35/40/45%.",
+                "cost": "60 Mana",
+                "range": "3000/4000/5000/6000/7000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AurelionSolE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Voice of Light",
+                "description": "Aurelion Sol projects a blast of pure starfire, damaging and slowing all enemies caught in it and knocking nearby enemies back to a safer distance.",
+                "active": "Breathes out a blast of pure starfire, dealing 150/250/350 (+70% Ability Power) magic damage and slowing by 40/50/60% for 2 seconds. The blast will also knock nearby enemies back to Aurelion Sol's Outer Limit.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "1500",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AurelionSolR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "510",
+            "attack_damage": "57",
+            "attack_speed": "",
+            "movement_speed": "325",
+            "life_regen": "7",
+            "armor": "19",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "92",
+            "attack_damage": "3.2",
+            "attack_speed": "1.36%",
+            "movement_speed": "0",
+            "life_regen": "0.6",
+            "armor": "3.6",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/AurelionSol.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_2.jpg"
+        ]
+    },
+    {
+        "name": "azir",
+        "alias": "the emperor of the sands",
+        "role": "mage",
+        "region": "shurima",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Shurima's Legacy",
+                "description": "Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Azir_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Conquering Sands",
+                "description": "Azir sends all Sand Soldiers towards a location. Sand Soldiers deal magic damage to enemies they pass through and apply a slow for 1 second.",
+                "active": "Azir sends all Sand Soldiers towards a location. Sand Soldiers deal 70/90/110/130/150 (+30% Ability Power) magic damage to enemies they pass through and apply a 25% slow for 1 second.Enemies hit by multiple Sand Soldiers will not take additional damage.",
+                "passive": "",
+                "cost": "70 Mana",
+                "range": "740",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AzirQWrapper.png"
+            },
+            {
+                "type": "W key",
+                "name": "Arise!",
+                "description": "Azir summons a Sand Soldier to attack nearby targets for him, replacing his basic attack against targets within the soldier's range. Their attacks deal magic damage to enemies in a line. Arise! also passively grants attack speed to Azir and his Sand Soldiers.",
+                "active": "Azir summons a Sand Soldier for 10 seconds. When Azir attacks an enemy in a soldier's range, the soldier attacks in his stead, stabbing the target for 0 (+60% Ability Power) magic damage. Other enemies caught in the soldier's attack take [0]% of the stab's damage.Azir stores up to {{ maxammo }} Sand Soldiers and prepares a new one every 0 seconds.Sand Soldiers that strike the same targets deal 25% damage after the first.Sand Soldiers can attack targets outside of Azir's basic attack range.Sand Soldiers expire twice as fast when near an enemy turret.",
+                "passive": "Azir gains 20/30/40/50/60% attack speed. When Azir has 3 or more Sand Soldiers, he gains 20/30/40/50/60% additional attack speed for 5 seconds.",
+                "cost": "40 Mana",
+                "range": "500",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AzirW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Shifting Sands",
+                "description": "",
+                "active": "",
+                "passive": "",
+                "cost": "",
+                "range": "",
+                "image_url": ""
+            },
+            {
+                "type": "R key",
+                "name": "",
+                "description": "",
+                "active": "",
+                "passive": "",
+                "cost": "",
+                "range": "",
+                "image_url": ""
+            }
+        ],
+        "stats_base": {
+            "life": "552",
+            "attack_damage": "52",
+            "attack_speed": "",
+            "movement_speed": "335",
+            "life_regen": "7",
+            "armor": "19.04",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "92",
+            "attack_damage": "2.8",
+            "attack_speed": "3%",
+            "movement_speed": "0",
+            "life_regen": "0.75",
+            "armor": "3",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Azir.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_4.jpg"
+        ]
+    },
+    {
         "name": "kayn",
         "alias": "the shahow reaper",
         "role": "assassin",

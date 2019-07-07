@@ -2,7 +2,9 @@ const express = require('express')
 const app = express()
 const mongo = require('./db/connect')
 const port = process.env.PORT || 3000
+const cors = require('cors')
 
+app.use(cors())
 require('./routes/views')(app)
 require('./routes/api')(app)
 require('./routes/error')(app)
