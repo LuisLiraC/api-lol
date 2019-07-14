@@ -1,31 +1,44 @@
 const express = require('express')
-const app = express()
 const mongo = require('./db/connect')
-const port = process.env.PORT || 3000
+const path = require('path')
 const cors = require('cors')
+const port = process.env.PORT || 3000
 
+// App
+const app = express()
+
+// Middlewares
 app.use(cors())
-app.use(express.static(__dirname + '/css'))
-app.use(express.static(__dirname + '/js'))
+
+// Static files
+app.use('/static', express.static(path.join(__dirname, 'public')))
+
+// Routes
 require('./routes/views')(app)
 require('./routes/api')(app)
 require('./routes/error')(app)
 
+// DB Connect function
 async function initMongo() {
+  try {
     const db = await mongo.connect()
     if (db) { initExpress() }
+  } catch (error) {
+    throw error
+  }
 }
 
+// Server init function
 function initExpress() {
-    app.listen(port, () => {
-        console.log(">>> Servidor iniciado")
-        process.on('SIGINT', closeApp)
-        process.on('SIGTERM', closeApp)
-    })
+  app.listen(port, () => {
+    console.log(">>> Servidor iniciado")
+    process.on('SIGINT', closeApp)
+    process.on('SIGTERM', closeApp)
+  })
 }
 
 function closeApp() {
-    mongo.disconnect().then(() => process.exit(0))
+  mongo.disconnect().then(() => process.exit(0))
 }
 
 initMongo()

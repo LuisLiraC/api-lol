@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.dev.js",
     "fdb": "node ./db/dbContent --fill",
@@ -14,7 +13,7 @@
   "author": "Luis Lira",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
+    "cors": "2.8.5",
     "express": "4.17.1",
     "glob": "7.1.4",
     "mongodb": "3.2.7"
