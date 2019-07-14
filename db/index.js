@@ -1,5 +1,5 @@
 const mongo = require('./connect')
-const { DB_NAME } = require('./config')
+const DB_NAME = process.env.DB_NAME || 'api_lol'
 
 
 module.exports = {

@@ -5,7 +5,7 @@ const $form = document.getElementById('form')
 $fetch.addEventListener('click', (event) => {
     event.preventDefault()
     let champion = $form.elements.champion.value
-    $json.textContent = "Searching..."
+    $json.value = "Searching..."
     fetchData(champion)
 })
 

@@ -3,7 +3,7 @@
         "name": "aatrox",
         "alias": "the darkin blade",
         "role": "fighter",
-        "region": "runaterra",
+        "region": "runeterra",
         "transform": false,
         "abilities": [
             {
@@ -277,7 +277,7 @@
         "name": "alistar",
         "alias": "the minotaur",
         "role": "tank",
-        "region": "runaterra",
+        "region": "runeterra",
         "transform": false,
         "abilities": [
             {
@@ -555,7 +555,7 @@
         "name": "annie",
         "alias": "the dark child",
         "role": "mage",
-        "region": "runaterra",
+        "region": "runeterra",
         "transform": false,
         "abilities": [
             {
@@ -742,7 +742,7 @@
         "name": "aurelion sol",
         "alias": "the star forger",
         "role": "mage",
-        "region": "runaterra",
+        "region": "runeterra",
         "transform": false,
         "abilities": [
             {
@@ -863,22 +863,22 @@
             {   
                 "type": "E key",
                 "name": "Shifting Sands",
-                "description": "",
-                "active": "",
+                "description": "Azir shields himself briefly and dashes to one of his Sand Soldiers, damaging enemies. If he hits an enemy champion, he instantly readies a new Sand Soldier for deployment and halts his dash.",
+                "active": "Azir shields himself for 1.5 seconds, blocking up to 80/120/160/200/240 (+70% Ability Power) damage and dashes to one of his Sand Soldiers, damaging enemies hit for 60/90/120/150/180 (+40% Ability Power) magic damage.If Azir hits an enemy champion, he halts his dash and instantly prepares a new Sand Soldier.",
                 "passive": "",
-                "cost": "",
-                "range": "",
-                "image_url": ""
+                "cost": "60 Mana",
+                "range": "1100",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AzirEWrapper.png"
             },
             {
                 "type": "R key",
-                "name": "",
-                "description": "",
-                "active": "",
+                "name": "Emperor's Divide",
+                "description": "Azir summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
+                "active": "Azir summons a wall of armored soldiers that charge forward, knocking back enemies and dealing 150/250/450 (+60% Ability Power) magic damage. The soldiers then remain as a wall for 3 seconds.Azir and his allies can pass freely through Emperor's Divide.Emperor's Divide does not interact with Azir's basic attacks or spells.",
                 "passive": "",
-                "cost": "",
-                "range": "",
-                "image_url": ""
+                "cost": "100 Mana",
+                "range": "250",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/AzirR.png"
             }
         ],
         "stats_base": {
@@ -908,6 +908,813 @@
             "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_2.jpg",
             "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_3.jpg",
             "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_4.jpg"
+        ]
+    },
+    {
+        "name": "bard",
+        "alias": "the wandering caretaker",
+        "role": "support",
+        "region": "runeterra",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Traveler's Call",
+                "description": "Bard's presence causes magical chimes to appear, which grant Bard experience, mana, and a burst of speed. Additionally, lesser spirits follow Bard and aid in his attacks - collecting chimes causes these meeps to gain power over the course of the game.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Bard_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Cosmic Binding",
+                "description": "Bard fires a missile which will slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+                "active": "Bard fires an energy bolt, dealing 80/125/170/215/260 (+65% Ability Power) magic damage to one or two enemies. The first target hit will be slowed by 60% for 1/1.2/1.4/1.6/1.8 second(s).If the bolt hits another enemy or a wall, any enemies hit are stunned for 1/1.2/1.4/1.6/1.8 second(s).",
+                "passive": "",
+                "cost": "60 Mana",
+                "range": "2500",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BardQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Caretaker's Shrine",
+                "description": "Reveals a healing shrine which powers up over a short time, disappearing after healing the first ally that touches it.",
+                "active": "Bard raises a health shrine that immediately offers 30/60/90/120/150 (+30% Ability Power) health, but restores up to 70/110/150/190/230 (+60% Ability Power) health as it gathers power for 10 seconds. The shrine's effect also grants 50% decaying movement speed for 1.5 seconds. Bard can have up to 3 shrines active at once, which remain until visited by an ally champion or crushed by an enemy champion.",
+                "passive": "",
+                "cost": "70 Mana",
+                "range": "800",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BardW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Magical Journey",
+                "description": "Bard opens a portal in nearby terrain. Allies and enemies alike can take a one-way trip through that terrain by moving into the portal.",
+                "active": "Bard opens a one-way corridor through nearby terrain. Both allies and enemies can use the corridor by right-clicking on any part of it while near its entrance, with allies travelling 10/20/30/40/50% faster than enemies.The corridor disappears after 10 seconds.",
+                "passive": "",
+                "cost": "30 Mana",
+                "range": "900",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BardE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Tempered Fate",
+                "description": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+                "active": "Bard sends magical energy arcing to a target location. On impact, all champions, minions, monsters, and turrets in the target area are put in stasis, becoming invincible, untargetable, and unable to act for {{ rstasisduration }} seconds.Epic monsters are also put into stasis, despite normally being immune to disables.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "3400",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BardR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "535",
+            "attack_damage": "52",
+            "attack_speed": "",
+            "movement_speed": "330",
+            "life_regen": "7.5",
+            "armor": "34",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "89",
+            "attack_damage": "3",
+            "attack_speed": "2%",
+            "movement_speed": "0",
+            "life_regen": "0.55",
+            "armor": "4",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Bard.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_6.jpg"
+        ]
+    },
+    {
+        "name": "blitzcrank",
+        "alias": "the great steam Gglem",
+        "role": "tank",
+        "region": "zaun",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Mana Barrier",
+                "description": "When Blitzcrank's life is brought below 20% health, he activates Mana Barrier. This creates a mana shield equal to 30% of his mana for 10 seconds. Mana Barrier can only occur once every 90 seconds.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Blitzcrank_ManaBarrier.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Rocket Grab",
+                "description": "Blitzcrank fires his right hand to grab an opponent on its path, dealing damage and dragging it back to him.",
+                "active": "Blitzcrank fires his right hand. If it encounters an enemy unit it will stun them and deal 80/135/190/245/300 (+100% Ability Power) magic damage while he pulls them to himself.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "925",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/RocketGrab.png"
+            },
+            {
+                "type": "W key",
+                "name": "Overdrive",
+                "description": "Blitzcrank super charges himself to get dramatically increased Movement and Attack Speed. He is temporarily slowed after the effect ends.",
+                "active": "Blitzcrank supercharges himself, gaining [{{ initialms }}]% Movement Speed and 30/38/46/54/62% Attack Speed for 5 seconds. The Movement Speed bonus decays over the duration.When Overdrive ends, Blitzcrank's Movement Speed is slowed by 30% for 1.5 seconds.",
+                "passive": "",
+                "cost": "75 Mana",
+                "range": "1",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Overdrive.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Power Fist",
+                "description": "Blitzcrank charges up his fist to make his next attack deal double damage and pop his target up in the air.",
+                "active": "Blitzcrank charges up his fist to make his next attack deal double his total attack damage as physical damage and pop his target up in the air.",
+                "passive": "",
+                "cost": "25 Mana",
+                "range": "300",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/PowerFist.png"
+            },
+            {
+                "type": "R key",
+                "name": "Static Field",
+                "description": "Enemies attacked by Blitzcrank are marked and take lightning damage after 3 seconds. Additionally, Blitzcrank can activate this ability to damage nearby enemies and silence them for 0.5 seconds.",
+                "active": "Deals {{ activedamage }} magic damage and silences surrounding enemy units for 0.5 seconds.",
+                "passive": "While this spell is available, lightning charges Blitzcrank's fists, marking enemies. After 1 second, they are shocked for {{ passivedamage }} magic damage. This stacks up to two times.",
+                "cost": "100 Mana",
+                "range": "600",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/StaticField.png"
+            }
+        ],
+        "stats_base": {
+            "life": "582.6",
+            "attack_damage": "61.54",
+            "attack_speed": "",
+            "movement_speed": "325",
+            "life_regen": "8.5",
+            "armor": "44",
+            "magic_resist": "32.1",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "95",
+            "attack_damage": "3.5",
+            "attack_speed": "1.13%",
+            "movement_speed": "0",
+            "life_regen": "0.75",
+            "armor": "4",
+            "magic_resist": "1.25",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Blitzcrank.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_11.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_20.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_21.jpg"
+        ]
+    },
+    {
+        "name": "brand",
+        "alias": "the burning vengeance",
+        "role": "mage",
+        "region": "runeterra",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Blaze",
+                "description": "Brand's abilities set his targets Blaze ablaze for 4 seconds, damaging them for 3% of their maximum health over 3.25 seconds as Magic damage magic damage. Abilities used on an ablazed target are empowered and apply other stacks of blaze while also refreshing the duration of the previous ones. A target can have up to 3 blaze stacks at the same time and the damage per tick against monsters is capped at 80. After reaching 3 stacks on large monsters and enemy champions, an area is marked around them, which explodes after 2 seconds, consuming all the stacks. All enemies struck are dealt 12% − 16% (based on level) (+ 1.5% per 100 AP) of their maximum health as magic damage and are applied a stack of blaze. The explosion will still trigger if the target dies to the third ability or during the delay.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/BrandP.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Sear",
+                "description": "Brand launches a ball of fire forward that deals magic damage. If the target is ablaze, Sear will stun the target for 1.5 seconds.",
+                "active": "Brand launches a ball of fire forward that deals 80/110/140/170/200 (+55% Ability Power) magic damage.",
+                "passive": "If the target is ablaze, Sear will stun the target for 1.5 seconds.",
+                "cost": "50 Mana",
+                "range": "1050",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BrandQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Pillar of Flame",
+                "description": "After a short delay, Brand creates a Pillar of Flame at a target area, dealing magic damage to enemy units within the area. Units that are ablaze take an additional 25% damage.",
+                "active": "After a short delay, Brand creates a Pillar of Flame at a location, dealing 75/120/165/210/255 (+60% Ability Power) magic damage to enemies.",
+                "passive": "Units that are ablaze take an additional 25% damage from Pillar of Flame.",
+                "cost": "60/70/80/90/100 Mana",
+                "range": "900",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BrandW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Conflagration",
+                "description": "Brand conjures a powerful blast at his target, dealing magic damage to them. If the target is ablaze, Conflagration spreads to nearby enemies.",
+                "active": "Brand conjures a powerful blast at his target, dealing 70/95/120/145/170 (+45% Ability Power) magic damage.",
+                "passive": "If the target is ablaze, Conflagration spreads to nearby enemies.",
+                "cost": "70/75/80/85/90 Mana",
+                "range": "625",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BrandE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Pyroclasm",
+                "description": "Brand unleashes a devastating torrent of fire, dealing magic damage each time it bounces, up to 5 bounces. Bounces prioritize stacking Blaze to max on Champions. If a target is ablaze, Pyroclasm will briefly slow them.",
+                "active": "Brand unleashes a devastating torrent of fire, dealing {{ totaldamage }} magic damage each time it bounces up to 5 bounces. Bounces prioritize stacking Blaze to max on Champions.",
+                "passive": "If the target is ablaze, Pyroclasm will briefly slow the target by [{{ slowamount }}]%.",
+                "cost": "100 Mana",
+                "range": "750",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BrandR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "519.68",
+            "attack_damage": "57.04",
+            "attack_speed": "",
+            "movement_speed": "340",
+            "life_regen": "5.5",
+            "armor": "21.88",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "88",
+            "attack_damage": "3",
+            "attack_speed": "1.36%",
+            "movement_speed": "0",
+            "life_regen": "0.55",
+            "armor": "3.5",
+            "magic_resist": "0.5",
+            "range": ""
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Brand.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_7.jpg"
+        ]
+    },
+    {
+        "name": "braum",
+        "alias": "the heart of the freljord",
+        "role": "support",
+        "region": "freljord",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Concussive Blows",
+                "description": "Braum adds stacks of Concussive Blows to enemies with basic attacks or Winter's Bite. He and his allies continue to add stacks with basic attacks, at 4 stacks their target will be stunned.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Braum_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Winter's Bite",
+                "description": "Braum propels freezing ice from his shield, slowing and dealing magic damage. Applies a stack of Concussive Blows.",
+                "active": "Braum propels freezing ice from his shield dealing 60/105/150/195/240 (+0) [2.5% of Braum's Max Health] magic damage to the first enemy hit and slowing them by 70%, decaying over the next 2 seconds.Applies a stack of Concussive Blows.",
+                "passive": "",
+                "cost": "55/60/65/70/75 Mana",
+                "range": "1000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BraumQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Stand Behind Me",
+                "description": "Braum leaps to a target allied champion or minion. On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+                "active": "Braum leaps to target allied champion or minion.On arrival, Braum and the ally gain 0 Armor and 0 Magic Resist (10/14/18/22/26 plus 10/11.5/13/14.5/16% of Braum's bonus Armor/Magic Resist) for 3 seconds.",
+                "passive": "",
+                "cost": "50/55/60/65/70 Mana",
+                "range": "650",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BraumW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Unbreakable",
+                "description": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed. He negates the damage of the first attack completely and reduces the damage of all subsequent attacks from this direction.",
+                "active": "Braum reduces incoming damage and blocks for allies behind him.Braum raises his shield in a direction for 3/3.25/3.5/3.75/4 seconds negating the damage of the next attack from that direction. Subsequent attacks deal 30/32.5/35/37.5/40% reduced damage.Braum intercepts projectiles, causing them to hit him and be destroyed.Braum gains 10% Movement Speed for the duration.",
+                "passive": "",
+                "cost": "30/35/40/45/50 Mana",
+                "range": "25000",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BraumE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Glacial Fissure",
+                "description": "Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.",
+                "active": "Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line for {{ slowzoneduration }} seconds, slowing enemies above it by {{ movespeedmod }}%.Enemies hit take {{ totaldamage }} magic damage. The first champion hit is knocked up for {{ firstknockupduration }} seconds, subsequent enemies are knocked up briefly.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "1250",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/BraumRWrapper.png"
+            }
+        ],
+        "stats_base": {
+            "life": "540",
+            "attack_damage": "55.376",
+            "attack_speed": "",
+            "movement_speed": "335",
+            "life_regen": "8",
+            "armor": "47",
+            "magic_resist": "32.1",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "87",
+            "attack_damage": "3.2",
+            "attack_speed": "3.5%",
+            "movement_speed": "0",
+            "life_regen": "1",
+            "armor": "4",
+            "magic_resist": "1.25",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Braum.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_10.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_11.jpg"
+        ]
+    },
+    {
+        "name": "caitlyn",
+        "alias": "the sheriff of piltover",
+        "role": "marksman",
+        "region": "piltover",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Headshot",
+                "description": "Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her critical strike chance. On trapped or netted targets, Caitlyn's Headshot attack range is doubled.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Caitlyn_Headshot.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Piltover Peacemaker",
+                "description": "Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).",
+                "active": "Revs the rifle for 1 second to fire a narrow piercing shot dealing 50/90/130/170/210 (+0) physical damage. After hitting any target, it opens into a wider shot that deals 40% less damage. Always deals full damage to trap revealed targets.",
+                "passive": "",
+                "cost": "50/60/70/80/90 Mana",
+                "range": "1250",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CaitlynPiltoverPeacemaker.png"
+            },
+            {
+                "type": "W key",
+                "name": "Yordle Snap Trap",
+                "description": "Caitlyn sets a trap to find sneaky yordles. When sprung, the trap reveals and immobilizes the enemy champion for 1.5 seconds.",
+                "active": "Sets traps that an enemy Champion can spring, immobilizing them for 1.5 seconds and granting True Sight for a short duration.Traps last for 30/35/40/45/50 seconds. 3/3/4/4/5 traps may be active at once.Trapped enemies take an additional 60/105/150/195/240 (+0) increased damage from Headshot.",
+                "passive": "",
+                "cost": "20 Mana",
+                "range": "800",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CaitlynYordleTrap.png"
+            },
+            {   
+                "type": "E key",
+                "name": "90 Caliber Net",
+                "description": "Caitlyn fires a heavy net to slow her target. The recoil knocks Caitlyn back.",
+                "active": "Fires a net, knocking Caitlyn backwards. The net deals 70/110/150/190/230 (+80% Ability Power) magic damage and slows the first enemy hit by 50% for 1 second.",
+                "passive": "",
+                "cost": "75 Mana",
+                "range": "750",
+                "image_url": ""
+            },
+            {
+                "type": "R key",
+                "name": "Ace in the Hole",
+                "description": "Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.",
+                "active": "Takes a second to line up the perfect shot on an enemy Champion at up to 0 range. The shot deals 0 (+{{ rtotaldamage }}) physical damage, but other enemy Champions can intercept it.Grants True Sight of the target during the channel.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "3500",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CaitlynAceintheHole.png"
+            }
+        ],
+        "stats_base": {
+            "life": "481",
+            "attack_damage": "60",
+            "attack_speed": "",
+            "movement_speed": "325",
+            "life_regen": "3.5",
+            "armor": "28",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "91",
+            "attack_damage": "2.88",
+            "attack_speed": "4%",
+            "movement_speed": "0",
+            "life_regen": "0.55",
+            "armor": "3.5",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Caitlyn.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_10.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_11.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_13.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_19.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_20.jpg"
+        ]
+    },
+    {
+        "name": "camille",
+        "alias": "the steel shadow",
+        "role": "fighter",
+        "region": "piltover",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Adaptive Defenses",
+                "description": "Basic attacks on champions grant a shield equal to 20% of Camille's maximum health against their damage type (Physical or Magic) for a brief duration.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Camille_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Precision Protocol",
+                "description": "Camille's next attack deals bonus damage and grants bonus movement speed. This spell can be recast for a short period of time, doing significantly increased bonus damage if Camille delays a period of time between the two attacks.",
+                "active": "Camille's next basic attack deals 0 bonus physical damage and increases her movement speed by 20/25/30/35/40% for 1 second. This ability can be recast in the next [object Object] seconds at no cost.If the second Precision Protocol attack hits at least 1.5 seconds after the first, the bonus damage is increased by 100% to 0 and [0]% of the attack is converted into true damage.Precision Protocol cannot critically strike.",
+                "passive": "",
+                "cost": "25 Mana",
+                "range": "325",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CamilleQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Tactical Sweep",
+                "description": "Camille blasts in a cone after a delay, dealing damage. Enemies in the outer half are slowed and take extra damage, while also healing Camille.",
+                "active": "Camille winds up and then slices in a direction, dealing 70/100/130/160/190 (+0) physical damage to enemies hit.Enemies hit by the outer half are slowed by 80%, decaying over 2 seconds. They take extra physical damage equal to 6/6.5/7/7.5/8% (+[0]%) of their maximum health, and Camille heals for 100% of the bonus damage dealt to champions.Tactical Sweep does 50% less damage to non-epic monsters.",
+                "passive": "",
+                "cost": "50/55/60/65/70 Mana",
+                "range": "610",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CamilleW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Hookshot",
+                "description": "Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.",
+                "active": "First Cast: Fire a hookshot that attaches to terrain, pulling Camille to it and allowing Hookshot to be recast for 1 second. Second Cast: Camille leaps from the wall, colliding with the first enemy champion hit. Upon landing, she deals 60/95/130/165/200 (+0) physical damage to enemies and stuns nearby enemy champions for 0.75 seconds. Dashes towards enemy champions travel twice as far and grant 40/50/60/70/80% attack speed for 5 seconds on impact.",
+                "passive": "",
+                "cost": "70 Mana",
+                "range": "800",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CamilleE.png"
+            },
+            {
+                "type": "R key",
+                "name": "The Hextech Ultimatum",
+                "description": "Camille dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.",
+                "active": "Camille briefly becomes untargetable and leaps onto an enemy champion, interrupting channels and locking them into an area they cannot escape by any means for {{ rduration }} seconds. Other nearby enemies are knocked away. Her basic attacks against the trapped enemy deal bonus magic damage equal to {{ ronhitdamage }} plus {{ rpercentcurrenthpdamage }}% of their current health.The Hextech Ultimatum ends if Camille leaves the area.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "475",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CamilleR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "575.6",
+            "attack_damage": "68",
+            "attack_speed": "",
+            "movement_speed": "340",
+            "life_regen": "8.5",
+            "armor": "35",
+            "magic_resist": "32.1",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "85",
+            "attack_damage": "3.5",
+            "attack_speed": "2.5%",
+            "movement_speed": "0",
+            "life_regen": "8.5",
+            "armor": "35",
+            "magic_resist": "32.1",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Camille.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_10.jpg"
+        ]
+    },
+    {
+        "name": "cassiopeia",
+        "alias": "the serpent's embrace",
+        "role": "mage",
+        "region": "noxus",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Serpentine Grace",
+                "description": "Cassiopeia gains Movement Speed per level, but she cannot purchase Boots items.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Cassiopeia_Passive.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Noxious Blast",
+                "description": "Cassiopeia blasts an area with Poison after a brief delay, granting her increased Movement Speed if she hits an enemy champion.",
+                "active": "Blasts enemies in an area with Noxious Poison. If a champion is hit, Cassiopeia gains 30/35/40/45/50% Movement Speed decaying over 3 seconds.Noxious Poison deals 75/110/145/180/215 (+90% Ability Power) magic damage over 3 seconds.",
+                "passive": "",
+                "cost": "50/60/70/80/90 Mana",
+                "range": "850",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CassiopeiaQ.png"
+            },
+            {
+                "type": "W key",
+                "name": "Miasma",
+                "description": "Cassiopeia releases several clouds of poison, slowing, grounding, and lightly damaging enemies that pass through them. Grounded enemies cannot use Movement abilities.",
+                "active": "Cassiopeia spews venom in an arc, leaving toxic clouds for 5 seconds.Enemies in the clouds are continually afflicted with Debilitating Poison, inflicting a decaying 40/50/60/70/80% slow and grounding them, prohibiting the use of Movement abilities. They also take 20/25/30/35/40 (+15% Ability Power) magic damage per second.Miasma has a minimum cast range.",
+                "passive": "",
+                "cost": "70/80/90/100/110 Mana",
+                "range": "800",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CassiopeiaW.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Twin Fang",
+                "description": "Cassiopeia lets loose an attack that deals increased damage to Poisoned targets and heals her for a percentage of the damage dealt. If the target dies from this attack, Cassiopeia regains Mana.",
+                "active": "Deal 55% Ability Power (+10% Ability Power) magic damage to a target. If the target is killed by Twin Fang, or is killed during its flight, Cassiopeia gains {{ cost }} Mana.If the victim is Poisoned when Twin Fang hits, it takes 10/30/50/70/90 (+60% Ability Power) additional magic damage and Cassiopeia heals for 0 (+0).",
+                "passive": "",
+                "cost": "40/45/50/55/60 Mana",
+                "range": "700",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CassiopeiaE.png"
+            },
+            {
+                "type": "R key",
+                "name": "Petrifying Gaze",
+                "description": "Cassiopeia releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back turned.",
+                "active": "Cassiopeia deals {{ rdamage }} magic damage to all enemies in front of her. Enemies facing her turn to stone and are stunned for {{ rccduration }} seconds while enemies facing away are slowed by {{ rslowpercent }}%.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "825",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CassiopeiaR.png"
+            }
+        ],
+        "stats_base": {
+            "life": "537",
+            "attack_damage": "53",
+            "attack_speed": "",
+            "movement_speed": "328",
+            "life_regen": "5.5",
+            "armor": "25",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "87",
+            "attack_damage": "3",
+            "attack_speed": "1.5%",
+            "movement_speed": "4",
+            "life_regen": "0.5",
+            "armor": "3.5",
+            "magic_resist": "0.5",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Cassiopeia.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_8.jpg"
+        ]
+    },
+    {
+        "name": "chogath",
+        "alias": "the terror of the void",
+        "role": "tank",
+        "region": "void",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Carnivore",
+                "description": "Whenever Cho'Gath kills a unit, he recovers Health and Mana. The values restored increase with Cho'Gath's level.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/GreenTerror_TailSpike.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Rupture",
+                "description": "Ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them.",
+                "active": "Ruptures the ground at target location. Enemies caught in the rupture are launched into the air for 1 second, take 80/135/190/245/300 (+100% Ability Power) magic damage, and are slowed by 60% for 1.5 seconds.",
+                "passive": "",
+                "cost": "60 Mana",
+                "range": "950",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Rupture.png"
+            },
+            {
+                "type": "W key",
+                "name": "Feral Scream",
+                "description": "Cho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.",
+                "active": "Silences enemies in a cone for 1.6/1.7/1.8/1.9/2 seconds and deals 75/125/175/225/275 (+70% Ability Power) magic damage.",
+                "passive": "",
+                "cost": "70/80/90/100/110 Mana",
+                "range": "300",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/FeralScream.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Vorpal Spikes",
+                "description": "Cho'Gath's attacks release deadly spikes, dealing damage and slowing all enemy units in front of him.",
+                "active": "Cho'Gath's next 3 basic attacks launch spikes that deal 22/34/46/58/70 (+30% Ability Power) plus [0]% of enemies' maximum Health as magic damage and slow by 30/35/40/45/50% for 1.5 seconds, decaying over the duration.Spikes grow wider as Cho'Gath gains Feast stacks.Spikes deal an additional 0.5% of enemies' maximum Health per Feast stack.Percent Health damage against minions and monsters is capped at 60/80/100/120/140.",
+                "passive": "",
+                "cost": "30 Mana",
+                "range": "40",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/VorpalSpikes.png"
+            },
+            {
+                "type": "R key",
+                "name": "Feast",
+                "description": "Devours an enemy unit, dealing a high amount of true damage. If the target is killed, Cho'Gath grows, gaining maximum Health.",
+                "active": "Ravenously feed on an enemy, dealing {{ rdamage }} true damage to champions or {{ rmonsterdamage }} to minions and monsters. If the target is killed, Cho'Gath gains a stack of Feast, which causes him to grow in size and gain {{ rhealthperstack }} maximum health.Only {{ rminionmaxstacks }} total stacks can be gained from minions and non-epic monsters.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "175",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/Feast.png"
+            }
+        ],
+        "stats_base": {
+            "life": "574.4",
+            "attack_damage": "69",
+            "attack_speed": "",
+            "movement_speed": "345",
+            "life_regen": "9",
+            "armor": "38",
+            "magic_resist": "32.1",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "80",
+            "attack_damage": "4.2",
+            "attack_speed": "1.44%",
+            "movement_speed": "0",
+            "life_regen": "0.85",
+            "armor": "3.5",
+            "magic_resist": "1.25",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Chogath.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_7.jpg"
+        ]
+    },
+    {
+        "name": "corki",
+        "alias": "the daring bombardier",
+        "role": "",
+        "region": "",
+        "transform": false,
+        "abilities": [
+            {
+                "type": "passive",
+                "name": "Hextech Munitions",
+                "description": "Corki's basic attack deals a percentage of their damage as magic instead of physical. Every once in a while, The Package arrives in Corki's base to be picked up, temporarily granting him out of combat Movement Speed and upgrading Valkyrie into Special Delivery.",
+                "active": "",
+                "passive": "",
+                "cost": "0",
+                "range": "0",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/passive/Corki_RapidReload.png"
+            },
+            {
+                "type": "Q key",
+                "name": "Phosphorus Bomb",
+                "description": "Corki fires a flash bomb at a target location, dealing magic damage to enemies in the area. This attack additionally reveals units in the area for a duration.",
+                "active": "Corki lobs a bomb, dealing 75/120/165/210/255 (+50% bonus Attack Damage) (+50% bonus Attack Damage) magic damage to enemies in the target area. In addition, the blast reveals the area and champions hit by the blast for 6 seconds (does not reveal stealth).",
+                "passive": "",
+                "cost": "60/70/80/90/100 Mana",
+                "range": "825",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/PhosphorusBomb.png"
+            },
+            {
+                "type": "W key",
+                "name": "Valkyrie",
+                "description": "Corki flies a short distance, dropping bombs that create a trail of fire that damages opponents who remain in it.",
+                "active": "Corki flies a short distance, dealing 60/90/120/150/180 (+40% Ability Power) magic damage per second to enemies in the fire left along his path. Special Delivery: Corki flies a great distance, dropping bombs that knock aside enemies and leave a burning trail for 5 seconds. The trail slows enemies by 90% and burns them for 0 (+0) (+20% Ability Power) magic damage per second.",
+                "passive": "",
+                "cost": "100 Mana",
+                "range": "600",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/CarpetBomb.png"
+            },
+            {   
+                "type": "E key",
+                "name": "Gatling Gun",
+                "description": "Corki's gatling gun rapidly fires in a cone in front of him, dealing damage and reducing enemy Armor and Magic Resist.",
+                "active": "Corki's gatling gun fires continuously at targets in front of him for 4 seconds, dealing up to 120/170/220/270/320 (+160% bonus Attack Damage) damage and reducing up to 8/11/14/17/20 armor and magic resist.Gatling Gun's damage is 50% physical, 50% magic.Defense reductions last for 2 seconds after last being damaged by Gatling Gun.",
+                "passive": "",
+                "cost": "50 Mana",
+                "range": "600",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/GGun.png"
+            },
+            {
+                "type": "R key",
+                "name": "Missile Barrage",
+                "description": "Corki fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. Corki stores missiles over time, up to a maximum. Every 3rd missile fired will be a Big One, dealing extra damage.",
+                "active": "Corki fires a missile that explodes at the first enemy it hits, dealing {{ rsmallmissiledamage }} magic damage to all nearby enemies.Corki can store up to 7 missiles, and every 3rd missile will be a Big One, dealing {{ rbigonemultiplier*100 }}% damage ({{ rbigmissiledamage }}).",
+                "passive": "",
+                "cost": "20 Mana",
+                "range": "1225",
+                "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/spell/MissileBarrage.png"
+            }
+        ],
+        "stats_base": {
+            "life": "518",
+            "attack_damage": "60",
+            "attack_speed": "",
+            "movement_speed": "325",
+            "life_regen": "5.5",
+            "armor": "28",
+            "magic_resist": "30",
+            "range": ""
+        },
+        "stats_per_level": {
+            "life": "87",
+            "attack_damage": "60",
+            "attack_speed": "2.3%",
+            "movement_speed": "5.5",
+            "life_regen": "0.55",
+            "armor": "28",
+            "magic_resist": "30",
+            "range": "0"
+        },
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Corki.png",
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_18.jpg"
         ]
     },
     {
