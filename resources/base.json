@@ -1,0 +1,83 @@
+{
+  "name": "",
+  "alias": "",
+  "role": "",
+  "region": "",
+  "transform": false,
+  "abilities": [
+    {
+      "type": "passive",
+      "name": "",
+      "description": "",
+      "active": "",
+      "passive": "",
+      "cost": "",
+      "range": "",
+      "image_url": ""
+    },
+    {
+      "type": "Q key",
+      "name": "",
+      "description": "",
+      "active": "",
+      "passive": "",
+      "cost": "",
+      "range": "",
+      "image_url": ""
+    },
+    {
+      "type": "W key",
+      "name": "",
+      "description": "",
+      "active": "",
+      "passive": "",
+      "cost": "",
+      "range": "",
+      "image_url": ""
+    },
+    {
+      "type": "E key",
+      "name": "",
+      "description": "",
+      "active": "",
+      "passive": "",
+      "cost": "",
+      "range": "",
+      "image_url": ""
+    },
+    {
+      "type": "R key",
+      "name": "",
+      "description": "",
+      "active": "",
+      "passive": "",
+      "cost": "",
+      "range": "",
+      "image_url": ""
+    }
+  ],
+  "stats_base": {
+    "life": "",
+    "attack_damage": "",
+    "attack_speed": "",
+    "movement_speed": "",
+    "life_regen": "",
+    "armor": "",
+    "magic_resist": "",
+    "range": ""
+  },
+  "stats_per_level": {
+    "life": "",
+    "attack_damage": "",
+    "attack_speed": "",
+    "movement_speed": "",
+    "life_regen": "",
+    "armor": "",
+    "magic_resist": "",
+    "range": ""
+  },
+  "image_url": "",
+  "skins": [
+    ""
+  ]
+}
