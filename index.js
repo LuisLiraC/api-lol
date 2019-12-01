@@ -8,6 +8,10 @@ const port = process.env.PORT || 3000
 const app = express()
 
 // Middlewares
+if(process.env.NODE_ENV !== 'production'){
+  const logger = require('morgan')
+  app.use(logger('dev'))
+}
 app.use(cors())
 
 // Static files
