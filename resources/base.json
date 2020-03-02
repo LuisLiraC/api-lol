@@ -1,4 +1,4 @@
-{
+[{
   "name": "",
   "alias": "",
   "role": "",
@@ -6,7 +6,7 @@
   "transform": false,
   "abilities": [
     {
-      "type": "passive",
+      "type": "Passive",
       "name": "",
       "description": "",
       "image_url": ""
@@ -36,28 +36,89 @@
       "image_url": ""
     }
   ],
-  "stats_base": {
-    "life": "",
-    "attack_damage": "",
-    "attack_speed": "",
-    "movement_speed": "",
-    "life_regen": "",
-    "armor": "",
-    "magic_resist": "",
-    "range": ""
-  },
-  "stats_per_level": {
-    "life": "",
-    "attack_damage": "",
-    "attack_speed": "",
-    "movement_speed": "",
-    "life_regen": "",
-    "armor": "",
-    "magic_resist": "",
-    "range": ""
+  "image_url": "",
+  "skins": [
+    ""
+  ]
+},
+
+
+
+
+{
+  "name": "",
+  "alias": "",
+  "role": "",
+  "region": "",
+  "transform": true,
+  "abilities": {
+    "kit_1": [
+      {
+        "type": "Passive",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "Q key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "W key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "E key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "R key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      }
+    ],
+    "kit_2": [
+      {
+        "type": "Passive",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "Q key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "W key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "E key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      },
+      {
+        "type": "R key",
+        "name": "",
+        "description": "",
+        "image_url": ""
+      }
+    ]
   },
   "image_url": "",
   "skins": [
     ""
   ]
-}
+}]

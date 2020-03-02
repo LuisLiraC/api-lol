@@ -372,6 +372,50 @@
     ]
   },
   {
+    "name": "aphelios",
+    "alias": "the weapon of the faithful",
+    "role": "marksman",
+    "region": "targon",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "The Hitman and the Seer",
+        "description": "Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one equipped and one secondary. Each weapon has a unique Basic Attack and Activated Ability. Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/ApheliosP.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Weapon Abilites",
+        "description": "Aphelios has 5 different activated abilities, based on his equipped weapon",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/ApheliosQ_ClientTooltipWrapper.png"
+      },
+      {
+        "type": "W key",
+        "name": "Phase",
+        "description": "Aphelios swaps his equipped gun with his secondary gun, replacing his basic attack and activated ability.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/ApheliosW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Weapon Queue System",
+        "description": "Aphelios has no third ability. This slot shows the next weapon Alune will give him. Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/ApheliosE_ClientTooltipWrapper.png"
+      },
+      {
+        "type": "R key",
+        "name": "Moonlight Vigil",
+        "description": "Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' equipped gun.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/ApheliosR.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Aphelios.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_1.jpg"
+    ]
+  },
+  {
     "name": "ashe",
     "alias": "the frost archer",
     "role": "marksman",
@@ -965,8 +1009,843 @@
       "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_18.jpg"
     ]
   },
+  {
+    "name": "darius",
+    "alias": "the hand of noxus",
+    "role": "fighter",
+    "region": "noxus",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Hemorrhage",
+        "description": "Darius's attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/Darius_Icon_Hemorrhage.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Decimate",
+        "description": "Darius winds up and swings his axe in a wide circle. Enemies struck by the blade take more damage than those struck by the handle. Darius heals based on enemy champions hit by the blade.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DariusCleave.png"
+      },
+      {
+        "type": "W key",
+        "name": "Crippling Strike",
+        "description": "Darius's next attack strikes an enemy's crucial artery. As they bleed out, their Movement Speed is slowed.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DariusNoxianTacticsONH.png"
+      },
+      {
+        "type": "E key",
+        "name": "Apprehend",
+        "description": "Darius hones his axe, passively causing his physical damage to ignore a percentage of his target's Armor. When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DariusAxeGrabCone.png"
+      },
+      {
+        "type": "R key",
+        "name": "Noxian Guillotine",
+        "description": "Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed for a brief duration.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DariusExecute.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Darius.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_8.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_14.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_15.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_16.jpg"
+    ]
+  },
+  {
+    "name": "diana",
+    "alias": "scorn of the moon",
+    "role": "fighter",
+    "region": "targo",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Moonsilver Blade",
+        "description": "Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains attack speed for her next 3 attacks.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/Diana_Passive_LunarBlade.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Crescent Strike",
+        "description": "Unleashes a bolt of lunar energy in an arc dealing magic damage.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DianaQ.png"
+      },
+      {
+        "type": "W key",
+        "name": "Pale Cascade",
+        "description": "Diana creates three orbiting spheres that detonate on contact with enemies to deal damage in an area. She also gains a temporary shield that absorbs damage. If her third sphere detonates, the shield gains additional strength.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DianaOrbs.png"
+      },
+      {
+        "type": "E key",
+        "name": "Lunar Rush",
+        "description": "",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DianaTeleport.png"
+      },
+      {
+        "type": "R key",
+        "name": "Moonfall",
+        "description": "Reveals and draws in all nearby enemies and slows them.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DianaR.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Diana.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_11.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_12.jpg"
+    ]
+  },
+  {
+    "name": "dr. mundo",
+    "alias": "the madman of zaun",
+    "role": "fighter",
+    "region": "zaun",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Adrenaline Rush",
+        "description": "Dr. Mundo regenerates 0.3% of his maximum Health each second.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/DrMundo_Passive.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Infected Cleaver",
+        "description": "Dr. Mundo hurls his cleaver, dealing damage equal to a portion of his target's current Health and slowing them for a short time. Dr. Mundo delights in the suffering of others, so he is returned a portion of the Health cost when he successfully lands a cleaver (doubled on killing blows).",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/InfectedCleaverMissileCast.png"
+      },
+      {
+        "type": "W key",
+        "name": "Burning Agony",
+        "description": "Dr. Mundo drains his Health to reduce the duration of disables and deal continual damage to nearby enemies.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/BurningAgony.png"
+      },
+      {
+        "type": "E key",
+        "name": "Masochism",
+        "description": "Dr. Mundo gains bonus attack damage based on his missing health, and his next basic attack headbutts his target for additional damage. Passively increases magic resist whenever Dr. Mundo is dealt magic damage or pays a health cost.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/Masochism.png"
+      },
+      {
+        "type": "R key",
+        "name": "Sadism",
+        "description": "Dr. Mundo sacrifices a portion of his Health for increased Movement Speed and drastically increased Health Regeneration.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/Sadism.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/DrMundo.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_7.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_8.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_9.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_10.jpg"
+    ]
+  },
+  {
+    "name": "draven",
+    "alias": "the glorious executioner",
+    "role": "marksman",
+    "region": "noxus",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "League of Draven",
+        "description": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/Draven_passive.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Spinning Axe",
+        "description": "Draven's next attack will deal bonus physical damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DravenSpinning.png"
+      },
+      {
+        "type": "W key",
+        "name": "Blood Rush",
+        "description": "Draven gains increased Movement Speed and Attack Speed. The Movement Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DravenFury.png"
+      },
+      {
+        "type": "E key",
+        "name": "Stand Aside",
+        "description": "Draven throws his axes, dealing physical damage to targets hit and knocking them aside. Targets hit are slowed.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DravenDoubleShot.png"
+      },
+      {
+        "type": "R key",
+        "name": "Whirling Death",
+        "description": "Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/DravenRCast.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Draven.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_12.jpg"
+    ]
+  },
+  {
+    "name": "ekko",
+    "alias": "the boy who shattered time",
+    "role": "assassin",
+    "region": "zaun",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Z-Drive Resonance",
+        "description": "Ekko's Zero-Drive charges his spells and attacks with temporal energy. The third hit deals bonus damage and, if the target is a champion, Ekko gains accelerated movement speed.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/Ekko_P.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Timewinder",
+        "description": "Ekko throws a temporal grenade that expands into a time-distortion field upon hitting an enemy champion, slowing and damaging anyone caught inside. After a delay, the grenade rewinds back to Ekko, dealing damage on its return.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EkkoQ.png"
+      },
+      {
+        "type": "W key",
+        "name": "Parallel Convergence",
+        "description": "Ekko's basic attacks deal bonus magic damage to low health enemies. He can cast Parallel Convergence to split the timeline, creating an anomaly after a few seconds that slows enemies caught inside. If Ekko enters the anomaly, he gains shielding and stuns enemies by suspending them in time.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EkkoW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Phase Dive",
+        "description": "Ekko rolls evasively while charging up his Z-Drive. His next attack deals bonus damage and warps reality, teleporting him to his target.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EkkoE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Chronobreak",
+        "description": "Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EkkoR.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Ekko.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_11.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_12.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_19.jpg"
+    ]
+  },
+  {
+    "name": "elise",
+    "alias": "the spider queen",
+    "role": "mage",
+    "region": "shadows isles",
+    "transform": true,
+    "abilities": {
+      "kit_1": [
+        {
+          "type": "Passive",
+          "name": "Spider Queen",
+          "description": "When Elise's abilities hit an enemy, she gains a dormant Spiderling.",
+          "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/ElisePassive.png"
+        },
+        {
+          "type": "Q key",
+          "name": "Neurotoxin",
+          "description": "Deals damage based upon how high the target's Health is.",
+          "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EliseHumanQ.png"
+        },
+        {
+          "type": "W key",
+          "name": "Volatile Spiderling",
+          "description": "Releases a venom-gorged Spiderling that explodes when it nears a target.",
+          "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EliseHumanW.png"
+        },
+        {
+          "type": "E key",
+          "name": "Cocoon",
+          "description": "Stuns the first enemy unit hit and reveals them if they are not stealthed.",
+          "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EliseHumanE.png"
+        },
+        {
+          "type": "R key",
+          "name": "Spider Form",
+          "description": "Transforms into a menacing spider, reducing her attack range in exchange for movement speed, new abilities, and a Spiderling swarm that will attack her foes.",
+          "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EliseR.png"
+        }
+      ],
+      "kit_2": [
+        {
+          "type": "Passive",
+          "name": "Spider Queen",
+          "description": "Basic attacks deal bonus magic damage and restore health to Elise.",
+          "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/ElisePassive.png"
+        },
+        {
+          "type": "Q key",
+          "name": "Venomous Bite",
+          "description": "Lunges at an enemy and deals damage based upon how low their Health is.",
+          "image_url": ""
+        },
+        {
+          "type": "W key",
+          "name": "Skittering Frenzy",
+          "description": "Elise and her Spiderlings gain Attack Speed.",
+          "image_url": ""
+        },
+        {
+          "type": "E key",
+          "name": "Rappel",
+          "description": "Elise and her Spiderlings ascend into the air and then descend upon target enemy. After descending on an enemy target, Elise's bonus damage and healing from Spider Queen is increased.",
+          "image_url": ""
+        },
+        {
+          "type": "R key",
+          "name": "Spider Form",
+          "description": "Transforms into a menacing spider, reducing her attack range in exchange for movement speed, new abilities, and a Spiderling swarm that will attack her foes.",
+          "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EliseR.png"
+        }
+      ]
+    },
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Elise.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_5.jpg"
+    ]
+  },
+  {
+    "name": "evelynn",
+    "alias": "agony's embrace",
+    "role": "assassin",
+    "region": "runeterra",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Demon Shade",
+        "description": "When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 6.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/Evelynn_Passive.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Hate Spike",
+        "description": "Evelynn strikes out with her Lasher, dealing damage to the first unit hit. Then, Evelynn can shoot a line of spikes at nearby foes up to 3 times.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EvelynnQ.png"
+      },
+      {
+        "type": "W key",
+        "name": "Allure",
+        "description": "Evelynn curses her target, causing her next attack or spell after a delay to charm her target and reduce their magic resist.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EvelynnW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Whiplash",
+        "description": "Evelynn whips her target with her Lasher, dealing damage. She then gains movement speed for a short duration.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EvelynnE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Last Caress",
+        "description": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EvelynnR.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Evelynn.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_7.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_8.jpg"
+    ]
+  },
+  {
+    "name": "ezreal",
+    "alias": "the prodigal explorer",
+    "role": "marksman",
+    "region": "piltover",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Rising Spell Force",
+        "description": "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/Ezreal_RisingSpellForce.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Mystic Shot",
+        "description": "Ezreal fires a damaging bolt of energy which reduces all of his cooldowns slightly if it strikes an enemy unit.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EzrealQ.png"
+      },
+      {
+        "type": "W key",
+        "name": "Essence Flux",
+        "description": "Ezreal fires an orb that sticks to the first champion or objective hit. If Ezreal hits an enemy with the orb, it detonates and deals damage.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EzrealW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Arcane Shift",
+        "description": "Ezreal teleports to a target nearby location and fires a homing bolt which strikes the nearest enemy unit. Prioritizes enemies stuck with Essence Flux.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EzrealE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Trueshot Barrage",
+        "description": "Ezreal winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non-epic monsters).",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/EzrealR.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Ezreal.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_7.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_8.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_9.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_18.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_19.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_20.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_21.jpg"
+    ]
+  },
+  {
+    "name": "fiddlesticks",
+    "alias": "the harbinger of doom",
+    "role": "mage",
+    "region": "runeterra",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Dread",
+        "description": "Standing still or channeling abilities for 1.5 seconds empowers Fiddlesticks with Dread. Immobilizing crowd control resets this timer.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/passive/FiddleSticks_Passive.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Terrify",
+        "description": "Strikes a target unit with fear, causing it to flee in terror for a duration.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/Terrify.png"
+      },
+      {
+        "type": "W key",
+        "name": "Drain",
+        "description": "Fiddlesticks saps the life force of an enemy, dealing damage to a target over time and healing himself.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/Drain.png"
+      },
+      {
+        "type": "E key",
+        "name": "Dark Wind",
+        "description": "A wisp of wind strikes an enemy unit and then bounces to nearby enemy units, dealing damage and silencing the victims.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/FiddlesticksDarkWind.png"
+      },
+      {
+        "type": "R key",
+        "name": "Crowstorm",
+        "description": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
+        "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/spell/Crowstorm.png"
+      }
+    ],
+    "image_url": "https://ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Fiddlesticks.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_7.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_8.jpg"
+    ]
+  },
+  {
+    "name": "fiora",
+    "alias": "the grand duelist",
+    "role": "fighter",
+    "region": "demacia",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Duelist's dance",
+        "description": "Fiora challenges nearby enemy Champions to dodge her. She calls out a direction from which she will try to strike. If she can complete her own challenge, she receives a small bonus and calls out a new direction.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Fiora_P.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Lunge",
+        "description": "Fiora lunges in a direction and stabs a nearby enemy, dealing physical damage and applying on-hit effects.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FioraQ.png"
+      },
+      {
+        "type": "W key",
+        "name": "Riposte",
+        "description": "Fiora parries all incoming damage and disables for a short time, then stabs in a direction. This stab slows the first enemy champion hit, or stuns them if Fiora blocked an immobilizing effect with this ability.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FioraW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Bladework",
+        "description": "Fiora has increased attack speed for the next two attacks. The first attack slows the target, and the second attack will critically strike.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FioraE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Grand Challenger",
+        "description": "Fiora reveals all four Vitals on an enemy champion and gains movement speed while near them. If Fiora hits all 4 Vitals or if the target dies after she has hit at least one, Fiora and her allies in the area are healed over the next few seconds.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FioraR.png"
+      }
+    ],
+    "image_url": "https://opgg-static.akamaized.net/images/lol/champion/Fiora.png?image=q_auto,w_140&v=1581511032",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_22.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_23.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_31.jpg"
+    ]
+  },
+  {
+    "name": "fizz",
+    "alias": "the tidal trickster",
+    "role": "assassin",
+    "region": "runeterra",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Nimble fighter",
+        "description": "Fizz can move through units and takes a flat amount of reduced damage from all sources.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Fizz_P.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Urchin strike",
+        "description": "Fizz dashes through his target, dealing magic damage and applying on hit effects.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FizzQ.png"
+      },
+      {
+        "type": "W key",
+        "name": "Seastone trident",
+        "description": "Fizz's attacks bleed his enemies, dealing magic damage over several seconds. Fizz can empower his next attack to deal bonus damage and empower his further attacks for a short time.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FizzW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Playful / Trickster",
+        "description": "Fizz hops into the air, landing gracefully upon his spear and becoming untargetable. From this position, Fizz can either slam the ground or choose to jump again before smashing back down.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FizzE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Chum the waters",
+        "description": "Fizz tosses a fish in a direction that attaches to any champion that touches it, slowing the target. After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/FizzR.png"
+      }
+    ],
+    "image_url": "https://opgg-static.akamaized.net/images/lol/champion/Fizz.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_8.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_9.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_10.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_14.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_15.jpg"
+    ]
+  },
+  {
+    "name": "galio",
+    "alias": "the colosus",
+    "role": "tank",
+    "region": "demacia",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Colossal smash",
+        "description": "Every few seconds, Galio's next basic attack deals bonus magic damage in an area.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Galio_Passive.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Winds of war",
+        "description": "Galio fires two windblasts that converge into a large tornado that deals damage over time.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GalioW.png"
+      },
+      {
+        "type": "W key",
+        "name": "Shield of durand",
+        "description": "Galio charges a defensive stance, moving slowly. Upon releasing the charge, Galio will taunt and damage nearby enemies.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GalioW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Justice punch",
+        "description": "Galio will briefly step back and charge, knocking up the first enemy champion he encounters.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GalioE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Hero's entrance",
+        "description": "Galio designates an ally's position as his landing spot. After a delay Galio smashes down location, knocking up nearby enemies.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GalioR.png"
+      }
+    ],
+    "image_url": "https://opgg-static.akamaized.net/images/lol/champion/Galio.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_13.jpg"
+    ]
+  },
+  {
+    "name": "gangplank",
+    "alias": "the saltwater scourge",
+    "role": "fighter",
+    "region": "bilgewater",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Trial by fire",
+        "description": "Every few seconds, Gangplank's melee strike will set his opponent on fire.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Gangplank_Passive.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Parrrley",
+        "description": "Shoots target, plundering Gold for each enemy unit killed.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GangplankQWrapper.png"
+      },
+      {
+        "type": "W key",
+        "name": "Remove scurvy",
+        "description": "Eats citrus to cure crowd control effects and restore Health.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GangplankW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Powder keg",
+        "description": "Gangplank uncovers a powder keg at target location. If he attacks it, it explodes, spreading the attack's damage to enemies in the area, slowing them.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GangplankE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Cannon barrage",
+        "description": "Gangplank signals his ship to bombard an area, slowing and damaging enemies.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GangplankR.png"
+      }
+    ],
+    "image_url": "https://opgg-static.akamaized.net/images/lol/champion/Gangplank.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_7.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_8.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_14.jpg"
+    ]
+  },
+  {
+    "name": "garen",
+    "alias": "the might of demacia",
+    "role": "fighter",
+    "region": "demacia",
+    "transform": false,
+    "abilities": [
+      {
+        "type": "Passive",
+        "name": "Perseverance",
+        "description": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Garen_Passive.png"
+      },
+      {
+        "type": "Q key",
+        "name": "Decisive strike",
+        "description": "Garen gains a burst of movement speed, breaking free of all slows affecting him. His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GarenQ.png"
+      },
+      {
+        "type": "W key",
+        "name": "Courage",
+        "description": "Garen passively increases his armor and magic resist by killing enemies. He may also activate this ability to give him a shield and tenacity for a brief moment followed by a lesser amount of damage reduction for a longer duration.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GarenW.png"
+      },
+      {
+        "type": "E key",
+        "name": "Judgment",
+        "description": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GarenE.png"
+      },
+      {
+        "type": "R key",
+        "name": "Demacian justice",
+        "description": "Garen calls upon the might of Demacia to attempt to execute an enemy champion.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GarenR.png"
+      }
+    ],
+    "image_url": "https://opgg-static.akamaized.net/images/lol/champion/Garen.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_5.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_6.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_10.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_11.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_13.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_14.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_22.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_23.jpg"
+    ]
+  },
+  {
+    "name": "gnar",
+    "alias": "the missing link",
+    "role": "fighter",
+    "region": "freljord",
+    "transform": true,
+    "abilities": {
+      "kit_1": [
+        {
+          "type": "Passive",
+          "name": "Rage gene",
+          "description": "While in combat Gnar generates Rage. At maximum Rage his next ability will transform him into Mega Gnar, granting increased survivability and access to new spells.",
+          "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Gnar_Passive.png"
+        },
+        {
+          "type": "Q key",
+          "name": "Boomerang throw",
+          "description": "Gnar throws a boomerang that damages and slows enemies it hits before returning to him. If he catches the boomerang its cooldown is reduced.",
+          "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GnarQ.png"
+        },
+        {
+          "type": "W key",
+          "name": "Hyper",
+          "description": "Gnar's attacks and spells hype him up, dealing bonus damage and granting him Movement Speed.",
+          "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GnarW.png"
+        },
+        {
+          "type": "E key",
+          "name": "Hop",
+          "description": "Gnar leaps to a location and bounces off the head of any unit he lands on, traveling further.",
+          "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GnarE.png"
+        },
+        {
+          "type": "R key",
+          "name": "Gnar!",
+          "description": "Mega Gnar throws everything around him in a chosen direction, dealing damage and slowing them. Any enemy that hits a wall is stunned and takes bonus damage.",
+          "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GnarR.png"
+        }
+      ],
+      "kit_2": [
+        {
+          "type": "Passive",
+          "name": "Rage gene",
+          "description": "While in combat Gnar generates Rage. At maximum Rage his next ability will transform him into Mega Gnar, granting increased survivability and access to new spells.",
+          "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Gnar_Passive.png"
+        },
+        {
+          "type": "Q key",
+          "name": "Boulder toss",
+          "description": "Mega Gnar instead throws a boulder that stops on the first unit hit, damaging and slowing everything nearby. It can then be picked up to reduce the cooldown.",
+          "image_url": ""
+        },
+        {
+          "type": "W key",
+          "name": "Wallop",
+          "description": "Mega Gnar is too enraged to be hyper and instead can rear up on his hind legs and smash down on the area in front of him, stunning enemies in an area.",
+          "image_url": ""
+        },
+        {
+          "type": "E key",
+          "name": "Crunch",
+          "description": "Mega Gnar is too large to bounce and instead lands with earth-shattering force, dealing damage in an area around him.",
+          "image_url": ""
+        },
+        {
+          "type": "R key",
+          "name": "Gnar!",
+          "description": "Mega Gnar throws everything around him in a chosen direction, dealing damage and slowing them. Any enemy that hits a wall is stunned and takes bonus damage.",
+          "image_url": "https://opgg-static.akamaized.net/images/lol/spell/GnarR.png"
+        }
+      ]
+    },
+    "image_url": "https://opgg-static.akamaized.net/images/lol/champion/Gnar.png",
+    "skins": [
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_1.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_2.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_3.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_4.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_13.jpg",
+      "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_14.jpg"
+    ]
+  },
 
-  
+
+
   {
     "name": "kayn",
     "alias": "the shahow reaper",
