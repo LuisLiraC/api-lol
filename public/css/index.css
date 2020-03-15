@@ -29,13 +29,14 @@ main p {
 section {
   background-color: white;
 }
+
 h3 {
   font-size: 30px;
   margin: 20px
 }
 
 #example {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -75,12 +76,14 @@ button {
 }
 
 #json {
-  width: 1024px;
+  max-width: 1024px;
+  width: 100%;
   height: 540px;
   margin: 20px 0;
   border-radius: 3px;
   resize: none;
 }
+
 footer {
   background-color: #263238;
   color: white;
@@ -90,4 +93,11 @@ footer {
 
 footer a {
   color: white;
+}
+
+@media(max-width: 700px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
