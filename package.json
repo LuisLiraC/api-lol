@@ -1,25 +1,25 @@
 {
   "name": "api_lol",
   "version": "1.0.0",
-  "description": "",
+  "description": "The API where you can find information about each champion of the game.",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=production&& node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
-    "fdb": "node ./db/dbContent --fill",
-    "cdb": "node ./db/dbContent --clear",
-    "r": "npm run cdb && npm run fdb"
+    "fill:ch": "node ./scripts/championsCollection --fill",
+    "drop:ch": "node ./scripts/championsCollection --clear",
+    "reset:ch": "npm run cdb && npm run fdb"
   },
-  "author": "Luis Lira",
+  "repository": "https://github.com/LuisLiraC/api-lol",
+  "author": "LuisLiraC <luisliradev@gmail.com> (https://luislira.xyz/)",
   "license": "ISC",
   "dependencies": {
     "cors": "2.8.5",
     "express": "4.17.1",
-    "glob": "7.1.4",
-    "mongodb": "3.2.7"
+    "mongodb": "3.5.5",
+    "pug": "2.0.4"
   },
   "devDependencies": {
-    "morgan": "1.9.1",
     "nodemon": "1.19.1",
     "yargs": "13.2.4"
   }

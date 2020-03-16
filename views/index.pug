@@ -1,0 +1,19 @@
+extends layout.pug
+
+block hero
+  main
+    .container
+      h1 League of Legends API
+      p The API where you can find information about each champion of the game.
+
+block content
+  section
+    #example
+      h3 Try it!
+      form#form
+        input#url(type="text" disabled value="https://api-lol.herokuapp.com/api/champions/")
+        input#champion(type="text", name="champion", placeholder="champion name... (kai'sa, lee sin, lucian)")
+        button#fetch(type="submit") Search
+      textarea#json(readonly)
+
+    script(src="/static/js/index.js")

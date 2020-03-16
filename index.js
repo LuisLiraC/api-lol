@@ -1,48 +1,22 @@
 const express = require('express')
-const mongo = require('./db/connect')
 const path = require('path')
-const cors = require('cors')
-const port = process.env.PORT || 3000
-
-// App
 const app = express()
+const PORT = process.env.PORT || 3000
+const cors = require('cors')
+const champions = require('./routes/champions')
+const client = require('./routes/client')
+const error = require('./routes/error')
 
-// Middlewares
-if(process.env.NODE_ENV !== 'production'){
-  const logger = require('morgan')
-  app.use(logger('dev'))
-}
+
 app.use(cors())
+app.set('views', path.join(__dirname, 'views'))
+app.set('view engine', 'pug')
+app.use('/static', express.static(path.join(__dirname, 'assets')))
 
-// Static files
-app.use('/static', express.static(path.join(__dirname, 'public')))
+client(app)
+champions(app)
+error(app)
 
-// Routes
-require('./routes/views')(app)
-require('./routes/api')(app)
-require('./routes/error')(app)
-
-// DB Connect function
-async function initMongo() {
-  try {
-    const db = await mongo.connect()
-    if (db) { initExpress() }
-  } catch (error) {
-    throw error
-  }
-}
-
-// Server init function
-function initExpress() {
-  app.listen(port, () => {
-    console.log(">>> Servidor iniciado")
-    process.on('SIGINT', closeApp)
-    process.on('SIGTERM', closeApp)
-  })
-}
-
-function closeApp() {
-  mongo.disconnect().then(() => process.exit(0))
-}
-
-initMongo()
+app.listen(PORT, () => {
+  console.log(`http://localhost:${PORT}`)
+})
