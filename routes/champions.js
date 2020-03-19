@@ -21,7 +21,7 @@ module.exports = (app) => {
   router.get('/:name', async (req, res) => {
     try {
       const { name } = req.params
-      const champion = await championsController.getChampion(name)
+      const champion = await championsController.getChampion(name.toLocaleLowerCase())
       res.status(200).json(champion)
     } catch (error) {
       console.log(error)
@@ -31,7 +31,7 @@ module.exports = (app) => {
   router.post('/:name', async (req, res) => {
     try {
       const { name } = req.params
-      const champion = await championsController.createChampion(name)
+      const champion = await championsController.createChampion(name.toLocaleLowerCase())
       res.status(200).json(champion)
     } catch (error) {
       console.log(error)
@@ -41,7 +41,7 @@ module.exports = (app) => {
   router.put('/:name', async (req, res) => {
     try {
       const { name } = req.params
-      const champion = await championsController.updateChampion(name)
+      const champion = await championsController.updateChampion(name.toLocaleLowerCase())
       res.status(200).json(champion)
     } catch (error) {
       console.log(error)
@@ -51,7 +51,7 @@ module.exports = (app) => {
   router.delete('/:name', async (req, res) => {
     try {
       const { name } = req.params
-      const champion = await championsController.deleteChampion(name)
+      const champion = await championsController.deleteChampion(name.toLocaleLowerCase())
       res.status(200).json(champion)
     } catch (error) {
       console.log(error)
