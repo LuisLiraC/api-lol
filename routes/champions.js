@@ -10,6 +10,16 @@ module.exports = (app) => {
     try {
       const { query } = req
       const { limit } = query
+      if (query.role) query.role = query.role.toLocaleLowerCase()
+      if (query.region) {
+        const words = query.region.split(' ')
+
+        query.region = words.forEach((w, idx) => {
+          const lower = w.toLocaleLowerCase()
+          words[idx] = lower.charAt(0).toUpperCase() + lower.slice(1)
+        })
+        query.region = words.join(' ')
+      }
       delete query.limit
       const champions = await championsController.getChampions(query, limit)
       res.status(200).json(champions)
