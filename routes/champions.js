@@ -10,6 +10,7 @@ module.exports = (app) => {
     try {
       const { query } = req
       const { limit } = query
+      const { offset } = query
       if (query.role) query.role = query.role.toLocaleLowerCase()
       if (query.region) {
         const words = query.region.split(' ')
@@ -21,7 +22,8 @@ module.exports = (app) => {
         query.region = words.join(' ')
       }
       delete query.limit
-      const champions = await championsController.getChampions(query, limit)
+      delete query.offset
+      const champions = await championsController.getChampions(query, limit, offset)
       res.status(200).json(champions)
     } catch (error) {
       console.log(error)

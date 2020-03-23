@@ -77,8 +77,10 @@ block content
           kbd https://api-lol.herokuapp.com/api/champions?region=Bandle city
         li Limit: 
           kbd https://api-lol.herokuapp.com/api/champions?limit=5
+        li Offset: 
+          kbd https://api-lol.herokuapp.com/api/champions?offset=50
         li You can use one or more: 
-          kbd https://api-lol.herokuapp.com/api/champions?role=fighter#{'&'}region=Ionia#{'&'}limit=5
+          kbd https://api-lol.herokuapp.com/api/champions?role=fighter#{'&'}region=Ionia#{'&'}limit=5#{'&'}offset=2
       textarea.JSCode
         |async function getChampions() {
         |  try {

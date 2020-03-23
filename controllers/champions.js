@@ -6,8 +6,8 @@ class ChampionsController {
     this.mongoDb = new MongoLib()
   }
 
-  async getChampions(query, limit) {
-    const champions = await this.mongoDb.getAll(this.collection, query, limit)
+  async getChampions(query, limit, offset) {
+    const champions = await this.mongoDb.getAll(this.collection, query, limit, offset)
     return champions || []
   }
 
