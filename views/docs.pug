@@ -6,4 +6,175 @@ block hero
       h1 Documentation
 
 block content
-  p Coming soon
+  script(src="/static/codemirror/lib/codemirror.js")
+  link(rel="stylesheet", href="/static/codemirror/lib/codemirror.css")
+  script(src="/static/codemirror/mode/javascript/javascript.js")
+  link(rel="stylesheet", href="/static/codemirror/theme/shadowfox.css")
+  link(rel="stylesheet", href="/static/css/docs.css")
+  .container.docs
+    .docSection
+      h3 Introduction
+      p This is a #[strong consumption-only API] — only the HTTP GET method is available on resources. You can use POST, PUT and DELETE methods but it will no have effect over the database.
+      p Every champion will have the following JSON structure:
+      textarea.JSCode
+        |{
+        |    "_id": "5e6dcbbfaa190fd3f047e5ce",
+        |    "alias": "the purifier",
+        |    "name": "lucian",
+        |    "role": "marksman",
+        |    "abilities": [
+        |        {
+        |            "type": "Passive",
+        |            "name": "lightslinger",
+        |            "description": "Whenever Lucian uses an ability, his next attack becomes a double-shot.",
+        |            "image": "opgg-static.akamaized.net/images/lol/passive/Lucian_Passive.png"
+        |        },
+        |        {
+        |            "type": "Q",
+        |            "name": "piercing light",
+        |            "description": "Lucian shoots a bolt of piercing light through a target.",
+        |            "image": "opgg-static.akamaized.net/images/lol/spell/LucianQ.png"
+        |        },
+        |        {
+        |            "type": "W",
+        |            "name": "ardent blaze",
+        |            "description": "Lucian shoots a missile that explodes in a star shape, marking and briefly revealing enemies. Lucian gains Movement Speed for attacking marked enemies.",
+        |            "image": "opgg-static.akamaized.net/images/lol/spell/LucianW.png"
+        |        },
+        |        {
+        |            "type": "E",
+        |            "name": "relentless pursuit",
+        |            "description": "Lucian quickly dashes a short distance. Lightslinger attacks reduce Relentless Pursuit's cooldown.",
+        |            "image": "opgg-static.akamaized.net/images/lol/spell/LucianE.png"
+        |        },
+        |        {
+        |            "type": "R",
+        |            "name": "the culling",
+        |            "description": "Lucian unleashes a torrent of shots from his weapons.",
+        |            "image": "opgg-static.akamaized.net/images/lol/spell/LucianR.png"
+        |        }
+        |    ],
+        |    "skins": [
+        |        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_0.jpg",
+        |        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_1.jpg",
+        |        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_2.jpg",
+        |        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_6.jpg",
+        |        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_7.jpg",
+        |        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_8.jpg",
+        |        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_9.jpg"
+        |    ],
+        |    "region": "Runeterra",
+        |    "champion_image": "opgg-static.akamaized.net/images/lol/champion/Lucian.png"
+        |}
+  
+    .docSection
+      h3 Get all champions
+      p Returns an #[strong Array] with all the champions. You can use filters like role, region or limit.
+      ul 
+        li Role: 
+          kbd https://api-lol.herokuapp.com/api/champions?role=marksman
+        li Region: 
+          kbd https://api-lol.herokuapp.com/api/champions?region=Bandle city
+        li Limit: 
+          kbd https://api-lol.herokuapp.com/api/champions?limit=5
+        li You can use one or more: 
+          kbd https://api-lol.herokuapp.com/api/champions?role=fighter#{'&'}region=Ionia#{'&'}limit=5
+      textarea.JSCode
+        |async function getChampions() {
+        |  try {
+        |    const data = await fetch(`https://api-lol.herokuapp.com/api/champions`)
+        |      .then(response => response.json())
+        |  } catch (error) {
+        |    console.log(error)
+        |  }
+        |}
+
+    .docSection
+      h3 Get one champion
+      p Returns an #[strong Object] with the champion information. The right way to write the name of champion should be the same as in the game.
+      p #[strong Examples:] Kai'sa, Dr. Mundo, Lee Sin, Lucian, Nunu #{'&'} Willump
+      textarea.JSCode
+        |async function getChampion() {
+        |  try {
+        |    const data = await fetch(`https://api-lol.herokuapp.com/api/champions/kai'sa`)
+        |      .then(response => response.json())
+        |  } catch (error) {
+        |    console.log(error)
+        |  }
+        |}
+
+    .docSection
+      h3 Create champions
+      p Returns an #[strong Object] with a message
+      p This method just simulate a post request but don't have effect over the database
+      textarea.JSCode
+        |async function createChampion() {
+        |  try {
+        |    const data = await fetch(`https://api-lol.herokuapp.com/api/champions`, {
+        |      method: 'POST',
+        |      headers: {
+        |        'Content-Type': 'application/json'
+        |      },
+        |      body: {
+        |        name: "New Champion"
+        |        // more data
+        |      }
+        |    }).then(response => response.json())
+        |  } catch (error) {
+        |    console.log(error)
+        |  }
+        |}
+      h5 Reponse example:
+      textarea.JSCode
+        |{
+        |  "message": "champion created sucessfully"
+        |}
+
+    .docSection
+      h3 Update champions
+      p Returns an #[strong Object] with a message
+      p This method just simulate a put request but don't have effect over the database
+      textarea.JSCode
+        |async function updateChampion() {
+        |  try {
+        |    const data = await fetch(`https://api-lol.herokuapp.com/api/champions/gnar`, {
+        |      method: 'PUT',
+        |      headers: {
+        |        'Content-Type': 'application/json'
+        |      },
+        |      body: {
+        |        name: "New data"
+        |        // more data
+        |      }
+        |    }).then(response => response.json())
+        |  } catch (error) {
+        |    console.log(error)
+        |  }
+        |}
+      h5 Reponse example:
+      textarea.JSCode
+        |{
+        |  "message": "gnar updated sucessfully"
+        |}
+
+    .docSection
+      h3 Delete champions
+      p Returns an #[strong Object] with a message
+      p This method just simulate a delete request but don't have effect over the database
+      textarea.JSCode
+        |async function deleteChampion() {
+        |  try {
+        |    const data = await fetch(`https://api-lol.herokuapp.com/api/champions/fizz`, {
+        |      method: 'DELETE',
+        |    }).then(response => response.json())
+        |  } catch (error) {
+        |    console.log(error)
+        |  }
+        |}
+      h5 Reponse example:
+      textarea.JSCode
+        |{
+        |  "message": "fizz deleted sucessfully"
+        |}
+
+  script(src="/static/js/docs.js")

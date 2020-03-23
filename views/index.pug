@@ -14,6 +14,8 @@ block content
         input#url(type="text" disabled value="https://api-lol.herokuapp.com/api/champions/")
         input#champion(type="text", name="champion", placeholder="champion name... (kai'sa, lee sin, lucian)")
         button#fetch(type="submit") Search
+      small If you want to use this API with GraphQL, use the following endpoint: 
+        a(href="https://api-lol-gql.herokuapp.com/graphql") https://api-lol-gql.herokuapp.com/graphql
       textarea#json(readonly)
 
     script(src="/static/js/index.js")

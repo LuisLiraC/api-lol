@@ -35,11 +35,11 @@ class MongoLib {
     })
   }
 
-  create(name) {
+  create() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve({
-          message: `${name} created sucessfully`
+          message: `champion created sucessfully`
         })
       }, 1000)
     })

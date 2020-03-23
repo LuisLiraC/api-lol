@@ -38,11 +38,10 @@ module.exports = (app) => {
     }
   })
 
-  router.post('/:name', async (req, res) => {
+  router.post('/', async (req, res) => {
     try {
-      const { name } = req.params
-      const champion = await championsController.createChampion(name.toLocaleLowerCase())
-      res.status(200).json(champion)
+      const champion = await championsController.createChampion()
+      res.status(201).json(champion)
     } catch (error) {
       console.log(error)
     }

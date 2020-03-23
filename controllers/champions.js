@@ -16,8 +16,8 @@ class ChampionsController {
     return champion || {}
   }
 
-  async createChampion(name) {
-    const createdChampion = await this.mongoDb.create(name)
+  async createChampion() {
+    const createdChampion = await this.mongoDb.create()
     return createdChampion || {}
   }
 

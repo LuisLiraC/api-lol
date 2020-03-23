@@ -1,0 +1,33 @@
+.container.docs {
+    margin: 0 auto;
+    padding: 25px;
+    text-align: left;
+}
+
+.docSection {
+    margin: 5em 0px;
+}
+
+.CodeMirror {
+    height: max-content;
+    border-radius: 5px;
+}
+
+kbd {
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 14px;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+
+@media (max-width: 500px) {
+    .container.docs {
+        padding: 25px 0px;
+    }
+
+    .CodeMirror {
+        border-radius: 0px;
+    }
+}
