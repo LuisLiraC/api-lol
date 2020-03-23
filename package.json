@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "fill:ch": "node ./scripts/championsCollection --fill",
     "drop:ch": "node ./scripts/championsCollection --clear",
-    "reset:ch": "npm run cdb && npm run fdb"
+    "reset:ch": "npm run drop:ch && npm run fill:ch"
   },
   "repository": "https://github.com/LuisLiraC/api-lol",
   "author": "LuisLiraC <luisliradev@gmail.com> (https://luislira.xyz/)",
