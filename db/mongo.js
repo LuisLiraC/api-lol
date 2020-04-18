@@ -25,7 +25,12 @@ class MongoLib {
 
   getAll(collection, query, limit, offset) {
     return this.connect().then(db => {
-      return db.collection(collection).find(query).skip(parseInt(offset)).limit(parseInt(limit)).toArray()
+      return db.collection(collection)
+        .find(query)
+        .skip(parseInt(offset))
+        .limit(parseInt(limit))
+        .sort({ name: 1 })
+        .toArray()
     })
   }
 
